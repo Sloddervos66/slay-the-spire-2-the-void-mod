@@ -109,6 +109,7 @@
 
     <ItemGroup>
       <Content Include="Directory.Build.props.local" />
+      <Content Include="README.md" />
     </ItemGroup>
 
     <Target Name="CheckDependencyPaths">
