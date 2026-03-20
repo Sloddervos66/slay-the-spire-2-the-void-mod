@@ -105,6 +105,12 @@
         <Folder Include="TheVoidCode\Cards\Ancient\" />
         <Folder Include="TheVoidCode\Cards\Common\" />
         <Folder Include="TheVoidCode\Cards\Uncommon\" />
+        <Folder Include="TheVoidCode\Relics\Ancient\" />
+        <Folder Include="TheVoidCode\Relics\Common\" />
+        <Folder Include="TheVoidCode\Relics\Event\" />
+        <Folder Include="TheVoidCode\Relics\Rare\" />
+        <Folder Include="TheVoidCode\Relics\Shop\" />
+        <Folder Include="TheVoidCode\Relics\Uncommon\" />
         <Folder Include="TheVoid\images\card_portraits\big\"/>
         <Folder Include="TheVoid\images\powers\big\"/>
         <Folder Include="TheVoid\images\relics\big\"/>
