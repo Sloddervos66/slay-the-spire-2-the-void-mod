@@ -1,0 +1,5 @@
+{
+    "THEVOID-BLIND_POWER.description": "Attacks are [gold]X%[/gold] less accurate, where X is the number of [gold]Blind[/gold] stacks.",
+    "THEVOID-BLIND_POWER.smartDescription": "Attacks are [blue]{Amount}%[/blue] less accurate.",
+    "THEVOID-BLIND_POWER.title": "Blind"
+}

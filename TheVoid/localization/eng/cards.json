@@ -1,0 +1,6 @@
+{
+    "THEVOID-STRIKE_THE_VOID.description": "Deal {Damage:diff()} damage.",
+    "THEVOID-STRIKE_THE_VOID.title": "Strike",
+    "THEVOID-DEFEND_THE_VOID.description": "Gain {Block:diff()} [gold]Block[/gold]",
+    "THEVOID-DEFEND_THE_VOID.title": "Defend"
+}
