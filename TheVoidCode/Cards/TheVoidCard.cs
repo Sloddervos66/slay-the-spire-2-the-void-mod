@@ -8,8 +8,8 @@ using MegaCrit.Sts2.Core.Entities.Cards;
 namespace TheVoid.TheVoidCode.Cards;
 
 [Pool(typeof(TheVoidCardPool))]
-public abstract class TheVoidCard(int cost, CardType type, CardRarity rarity, TargetType target) :
-    CustomCardModel(cost, type, rarity, target)
+public abstract class TheVoidCard(int cost, CardType type, CardRarity rarity, TargetType target, bool shouldShowInCardLibrary = true) :
+    CustomCardModel(cost, type, rarity, target, shouldShowInCardLibrary)
 {
     //Image size:
     //Normal art: 1000x760 (Using 500x380 should also work, it will simply be scaled.)

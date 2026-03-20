@@ -28,7 +28,7 @@ public class TheVoidCardPool : CustomCardPoolModel
     }*/
 
     //Color of small card icons
-    public override Color DeckEntryCardColor => new("ffffff");
+    public override Color DeckEntryCardColor => new("000000");
 
     public override bool IsColorless => false;
 }
