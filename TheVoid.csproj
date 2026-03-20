@@ -102,6 +102,9 @@
     </ItemGroup>
 
     <ItemGroup>
+        <Folder Include="TheVoidCode\Cards\Ancient\" />
+        <Folder Include="TheVoidCode\Cards\Common\" />
+        <Folder Include="TheVoidCode\Cards\Uncommon\" />
         <Folder Include="TheVoid\images\card_portraits\big\"/>
         <Folder Include="TheVoid\images\powers\big\"/>
         <Folder Include="TheVoid\images\relics\big\"/>
