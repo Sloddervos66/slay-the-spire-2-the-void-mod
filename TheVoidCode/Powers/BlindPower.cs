@@ -30,6 +30,8 @@ public sealed class BlindPower : TheVoidPower
     
     public override decimal ModifyDamageMultiplicative(Creature? target, decimal amount, ValueProp props, Creature? dealer, CardModel? cardSource)
     {
+        ArgumentNullException.ThrowIfNull(target, "target");
+        
         if (dealer != Owner) return 1m;
         if (!props.IsPoweredAttack_()) return 1m;
         if (!_willMiss) return 1m;
