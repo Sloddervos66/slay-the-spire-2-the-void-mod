@@ -13,7 +13,11 @@ public sealed class FadePower : TheVoidPower
     public override PowerType Type => PowerType.None;
     public override PowerStackType StackType => PowerStackType.Counter;
     
-    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<BlindPower>()];
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => 
+    [
+        HoverTipFactory.ForEnergy(this),
+        HoverTipFactory.FromPower<BlindPower>()
+    ];
 
     public override async Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
     {

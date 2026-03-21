@@ -12,7 +12,11 @@ namespace TheVoid.TheVoidCode.Cards.Common;
 [Pool(typeof(TheVoidCardPool))]
 public sealed class Fade() : TheVoidCard(3, CardType.Power, CardRarity.Common, TargetType.Self)
 {
-    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<FadePower>()];
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => 
+    [
+        HoverTipFactory.ForEnergy(this), 
+        HoverTipFactory.FromPower<BlindPower>()
+    ];
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new EnergyVar(1),
