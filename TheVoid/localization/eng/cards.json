@@ -32,6 +32,9 @@
     "THEVOID-FADE.title": "Fade",
     "THEVOID-VOID_SIGHT.description": "Whenever you apply [gold]Blind[/gold], draw {Cards:diff()} {Cards:plural:card|cards}.",
     "THEVOID-VOID_SIGHT.title": "Void Sight",
+
+    "THEVOID-DEVOUR.description": "Deal {Damage:diff()} damage. If enemy is below {TargetSelected:{InstantDeath:diff()}|{InstantDeath:diff()}%} HP, kill instantly instead. Heal {Heal:diff()} HP.",
+    "THEVOID-DEVOUR.title": "Devour",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse",
