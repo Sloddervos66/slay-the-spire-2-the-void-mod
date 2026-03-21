@@ -2,5 +2,7 @@
     "THEVOID-STRIKE_THE_VOID.description": "Deal {Damage:diff()} damage.",
     "THEVOID-STRIKE_THE_VOID.title": "Strike",
     "THEVOID-DEFEND_THE_VOID.description": "Gain {Block:diff()} [gold]Block[/gold]",
-    "THEVOID-DEFEND_THE_VOID.title": "Defend"
+    "THEVOID-DEFEND_THE_VOID.title": "Defend",
+    "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
+    "THEVOID-ECLIPSE.title": "Eclipse"
 }
