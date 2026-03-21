@@ -1,5 +1,8 @@
 {
     "THEVOID-BLIND_POWER.description": "Attacks are [gold]X%[/gold] less accurate, where X is the number of [gold]Blind[/gold] stacks.",
     "THEVOID-BLIND_POWER.smartDescription": "Attacks are [blue]{Amount}%[/blue] less accurate.",
-    "THEVOID-BLIND_POWER.title": "Blind"
+    "THEVOID-BLIND_POWER.title": "Blind",
+    "THEVOID-ON_DEATH_DRAW_POWER.description": "On death, draw [gold]X[/gold] cards, where X is the number of [gold]Last Gasp[/gold] stacks.",
+    "THEVOID-ON_DEATH_DRAW_POWER.smartDescription": "On death, draw [blue]{Amount}[/blue] {Amount:plural:card|cards}.",
+    "THEVOID-ON_DEATH_DRAW_POWER.title": "Last Gasp"
 }
