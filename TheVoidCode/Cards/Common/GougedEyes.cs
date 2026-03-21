@@ -1,11 +1,13 @@
 ﻿using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.ValueProps;
 using TheVoid.TheVoidCode.Character;
+using TheVoid.TheVoidCode.Extensions;
 using TheVoid.TheVoidCode.Powers;
 
 namespace TheVoid.TheVoidCode.Cards.Common;
@@ -25,7 +27,7 @@ public sealed class GougedEyes() : TheVoidCard(1, CardType.Attack, CardRarity.Co
         var target = cardPlay.Target;
         if (target == null) return;
 
-        var damage = HasBlind() ? DynamicVars["BlindedDamage"].BaseValue : DynamicVars.Damage.BaseValue;
+        var damage = Owner.Creature.HasBlind() ? DynamicVars["BlindedDamage"].BaseValue : DynamicVars.Damage.BaseValue;
         await DamageCmd.Attack(damage).FromCard(this).Targeting(target)
             .WithHitFx("vfx/vfx_attack_slash")
             .Execute(choiceContext);
@@ -35,13 +37,5 @@ public sealed class GougedEyes() : TheVoidCard(1, CardType.Attack, CardRarity.Co
     {
         DynamicVars.Damage.UpgradeValueBy(2m);
         DynamicVars["BlindedDamage"].UpgradeValueBy(4m);
-    }
-
-    private bool HasBlind()
-    {
-        var player = Owner.Creature;
-        var currentBlind = player.GetPower<BlindPower>();
-
-        return currentBlind is { Amount: > 0 };
     }
 }
