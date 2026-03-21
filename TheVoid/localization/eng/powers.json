@@ -13,5 +13,8 @@
     "THEVOID-ON_DEATH_HEAL_POWER.title": "Void Mend",
     "THEVOID-ON_DEATH_APPLY_BLIND_POWER.description": "On death, apply [gold]X Blind[/gold], where X is the number of [gold]Void Flash[/gold] stacks.",
     "THEVOID-ON_DEATH_APPLY_BLIND_POWER.smartDescription": "On death, apply [blue]{Amount}{/blue] [gold]Blind[/gold]",
-    "THEVOID-ON_DEATH_APPLY_BLIND_POWER.title": "Void Flash"
+    "THEVOID-ON_DEATH_APPLY_BLIND_POWER.title": "Void Flash",
+    "THEVOID-TUNNEL_VISION_POWER.description": "Gain 1 [gold]Energy[/gold], apply [gold]X Blind[/gold] to yourself, where X is the number of [gold]Tunnel Vision[/gold] stacks.",
+    "THEVOID-TUNNEL_VISION_POWER.smartDescription": "Gain 1 [gold]Energy[/gold], Apply [blue]{Amount}[/blue] [gold]Blind[/gold] to yourself.",
+    "THEVOID-TUNNEL_VISION_POWER.title": "Tunnel Vision"
 }
