@@ -9,7 +9,7 @@ using TheVoid.TheVoidCode.Character;
 namespace TheVoid.TheVoidCode.Cards.Common;
 
 [Pool(typeof(TheVoidCardPool))]
-public class VoidDrain() : TheVoidCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
+public sealed class VoidDrain() : TheVoidCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [

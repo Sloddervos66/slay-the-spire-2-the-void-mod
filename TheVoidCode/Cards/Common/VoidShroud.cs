@@ -10,7 +10,7 @@ using TheVoid.TheVoidCode.Powers;
 namespace TheVoid.TheVoidCode.Cards.Common;
 
 [Pool(typeof(TheVoidCardPool))]
-public class VoidShroud() : TheVoidCard(1, CardType.Skill, CardRarity.Common, TargetType.Self)
+public sealed class VoidShroud() : TheVoidCard(1, CardType.Skill, CardRarity.Common, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [

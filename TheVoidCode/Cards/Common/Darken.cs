@@ -10,7 +10,7 @@ using TheVoid.TheVoidCode.Powers;
 namespace TheVoid.TheVoidCode.Cards.Common;
 
 [Pool(typeof(TheVoidCardPool))]
-public class Darken() : TheVoidCard(2, CardType.Skill, CardRarity.Common, TargetType.AllEnemies)
+public sealed class Darken() : TheVoidCard(2, CardType.Skill, CardRarity.Common, TargetType.AllEnemies)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<BlindPower>(2m)];
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];

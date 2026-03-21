@@ -11,7 +11,7 @@ using TheVoid.TheVoidCode.Powers.OnDeathTriggerPowers;
 namespace TheVoid.TheVoidCode.Cards.Common;
 
 [Pool(typeof(TheVoidCardPool))]
-public class HollowStrike() : TheVoidCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
+public sealed class HollowStrike() : TheVoidCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<OnDeathDrawPower>()];
     protected override IEnumerable<DynamicVar> CanonicalVars => [
