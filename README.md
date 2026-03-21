@@ -80,13 +80,13 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ### Attacks (5)
 
-| Card               | Cost | Description                                                                          | Upgrade                                         | Completed |
-|--------------------|------|--------------------------------------------------------------------------------------|-------------------------------------------------|-----------|
-| **Devour**         | 2    | Deal 10 damage. If target is below 10% of max HP kill instantly instead. Heal 10 HP. | Deal 13 damage. Kill instantly 13%. Heal 13 HP. | Y         |
-| **Eclipse Strike** | 2    | Apply 2 Blind. Deal 14 damage. Apply 1 Void Flash.                                   | Apply 3 Blind initially.                        | N         |
-| **Null Step**      | 1    | Gain 8 Block. If an enemy is Blinded, gain 4 additional Block.                       | 10 Block / 5 additional.                        | N         |
-| **Hemorrhage**     | 2    | Lose 5 HP. Deal 18 damage.                                                           | Lose 4 HP. Deal 21 damage.                      | N         |
-| **Blind Fury**     | 1    | Deal 5 damage for each Blind stack on the target.                                    | Deal 6 damage per stack.                        | N         |
+| Card               | Cost | Description                                                                          | Upgrade                                               | Completed |
+|--------------------|------|--------------------------------------------------------------------------------------|-------------------------------------------------------|-----------|
+| **Devour**         | 2    | Deal 10 damage. If target is below 10% of max HP kill instantly instead. Heal 10 HP. | Deal 13 damage. Kill instantly 13%. Heal 13 HP.       | Y         |
+| **Eclipse Strike** | 1    | Deal 7 damage. Apply 1 Void Flash.                                                   | Deal 10 damage.                                       | N         |
+| **Null Step**      | 1    | Gain 8 Block. Gain 4 additional Block for every 5 Blind stacks on the enemy.         | Gain 10 Block. Gain 4 extra Block for every 3 stacks. | N         |
+| **Hemorrhage**     | 2    | Lose 5 HP. Deal 18 damage.                                                           | Lose 7 HP. Deal 23 damage.                            | N         |
+| **Blind Fury**     | 2    | Deal 5 damage. Deal an additional 2 damage per 3 Blind stacks applied to yourself.   | Deal 7 damage.                                        | N         |
 
 ### Skills (4)
 
