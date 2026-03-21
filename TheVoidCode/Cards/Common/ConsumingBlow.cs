@@ -34,7 +34,8 @@ public class ConsumingBlow() : TheVoidCard(2, CardType.Attack, CardRarity.Common
         var target = cardPlay.Target;
         if (target == null) return;
 
-        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(target)
+        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).WithHitCount(2).FromCard(this)
+            .Targeting(target)
             .WithHitFx("vfx/vfx_attack_slash")
             .Execute(choiceContext);
 
