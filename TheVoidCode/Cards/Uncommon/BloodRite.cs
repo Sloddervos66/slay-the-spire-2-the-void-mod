@@ -22,7 +22,7 @@ public sealed class BloodRite() : TheVoidCard(1, CardType.Power, CardRarity.Rare
     {
         description.Add("IsUpgraded", 
             IsUpgraded
-                ? $" and draw [blue]{DynamicVars.Cards.BaseValue}[/blue] {{Cards:plural:card|cards}}."
+                ? $" and draw [blue]{DynamicVars.Cards.BaseValue}[/blue] card"
                 : "");
     }
 
@@ -30,11 +30,11 @@ public sealed class BloodRite() : TheVoidCard(1, CardType.Power, CardRarity.Rare
     {
         if (!IsUpgraded)
         {
-            await PowerCmd.Apply<BloodRitePower>(Owner.Character, );
+            await PowerCmd.Apply<BloodRitePower>(Owner.Creature, DynamicVars.Energy.BaseValue, Owner.Creature, this);
             return;
         }
 
-        await PowerCmd.Apply<BloodRiteUpgradedPower>();
+        await PowerCmd.Apply<BloodRiteUpgradedPower>(Owner.Creature, DynamicVars.Cards.BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

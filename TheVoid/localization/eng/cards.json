@@ -35,6 +35,6 @@
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse",
-    "THEVOID-BLOOD_RITE.description": "Whenever you lose HP, gain {Energy:diff()}{IsUpgraded}.",
+    "THEVOID-BLOOD_RITE.description": "Whenever you lose HP, gain {Energy:diff()} [gold]Energy[/gold]{IsUpgraded}.",
     "THEVOID-BLOOD_RITE.title": "Blood Rite"
 }
