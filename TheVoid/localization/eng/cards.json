@@ -18,6 +18,8 @@
     "THEVOID-GOUGED_EYES.title": "Gouged Eyes",
     "THEVOID-VOID_TAP.description": "Deal {Damage:diff()} damage. Apply [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold].",
     "THEVOID-VOID_TAP.title": "Void Tap",
+    "THEVOID-UNRAVEL.description": "Lose {HpLoss:diff()} HP. Draw {Cards:diff()} {Cards:plural:card|cards}.",
+    "THEVOID-UNRAVEL.title": "Unravel",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse"

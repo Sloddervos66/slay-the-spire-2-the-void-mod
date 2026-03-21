@@ -115,7 +115,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="cards.md" />
       <Content Include="Directory.Build.props.local" />
       <Content Include="README.md" />
     </ItemGroup>
