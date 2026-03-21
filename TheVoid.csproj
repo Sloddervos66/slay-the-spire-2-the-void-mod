@@ -115,7 +115,6 @@
         <Folder Include="TheVoidCode\Relics\Uncommon\" />
         <Folder Include="TheVoid\images\card_portraits\big\"/>
         <Folder Include="TheVoid\images\powers\big\"/>
-        <Folder Include="TheVoid\images\relics\big\"/>
     </ItemGroup>
 
     <ItemGroup>
