@@ -8,6 +8,8 @@
     "THEVOID-HOLLOW_STRIKE.title": "Hollow Strike",
     "THEVOID-VOID_SLASH.description": "Deal {Damage:diff()} damage. Apply [blue]{OnDeathGainEnergyPower:diff()}[/blue] [gold]Void Pulse[/gold]",
     "THEVOID-VOID_SLASH.title": "Void Slash",
+    "THEVOID-BLIND_SIDE.description": "Deal {Damage:diff()} damage. Apply [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold]",
+    "THEVOID-BLIND_SIDE.title": "Blind Side",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse"
