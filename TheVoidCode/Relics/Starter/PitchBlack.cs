@@ -4,7 +4,7 @@ using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using TheVoid.TheVoidCode.Powers;
 
-namespace TheVoid.TheVoidCode.Relics;
+namespace TheVoid.TheVoidCode.Relics.Starter;
 
 public class PitchBlack : TheVoidRelic
 {
@@ -14,6 +14,8 @@ public class PitchBlack : TheVoidRelic
 
     public override async Task BeforeCombatStartLate()
     {
+        if (Owner.Creature.CombatState == null) return;
+        
         Flash();
         foreach (var enemy in Owner.Creature.CombatState.Enemies)
         {

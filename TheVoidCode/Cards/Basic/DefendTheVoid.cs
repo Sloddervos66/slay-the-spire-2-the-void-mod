@@ -6,7 +6,7 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.ValueProps;
 using TheVoid.TheVoidCode.Character;
 
-namespace TheVoid.TheVoidCode.Cards;
+namespace TheVoid.TheVoidCode.Cards.Basic;
 
 [Pool(typeof(TheVoidCardPool))]
 public sealed class DefendTheVoid : TheVoidCard

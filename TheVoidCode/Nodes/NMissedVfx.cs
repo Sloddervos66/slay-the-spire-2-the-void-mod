@@ -12,7 +12,7 @@ namespace TheVoid.TheVoidCode.nodes;
 
 public partial class NMissedVfx : Node2D
 {
-    private static readonly LocString _missedLoc = new("vfx", "THEVOID-MISSED");
+    private static readonly LocString MissedLoc = new("vfx", "THEVOID-MISSED");
     private MegaLabel _label;
     private Tween? _tween;
     private static string ScenePath => SceneHelper.GetScenePath("vfx/vfx_blocked_text");
@@ -22,11 +22,12 @@ public partial class NMissedVfx : Node2D
     {
         if (TestMode.IsOn) return null;
 
+        if (NCombatRoom.Instance == null) return null;
         var creatureNode = NCombatRoom.Instance.GetCreatureNode(target);
-        if (!creatureNode.IsInteractable) return null;
+        if (creatureNode is not { IsInteractable: true }) return null;
 
         var nMissedVfx = PreloadManager.Cache.GetScene(ScenePath)
-            .Instantiate<NMissedVfx>(PackedScene.GenEditState.Disabled);
+            .Instantiate<NMissedVfx>();
         nMissedVfx.GlobalPosition = creatureNode.VfxSpawnPosition +
                                     new Vector2(Rng.Chaotic.NextFloat(-20f, 20f), Rng.Chaotic.NextFloat(-60f, -40f));
         nMissedVfx.RotationDegrees = Rng.Chaotic.NextFloat(-2f, 2f);
@@ -36,7 +37,7 @@ public partial class NMissedVfx : Node2D
     public override void _Ready()
     {
         _label = GetNode<MegaLabel>("Label");
-        _label.SetText(_missedLoc.GetRawText());
+        _label.SetText(MissedLoc.GetRawText());
         TaskHelper.RunSafely(MissAnim());
     }
 

@@ -6,7 +6,7 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.ValueProps;
 using TheVoid.TheVoidCode.Character;
 
-namespace TheVoid.TheVoidCode.Cards;
+namespace TheVoid.TheVoidCode.Cards.Basic;
 
 [Pool(typeof(TheVoidCardPool))]
 public sealed class StrikeTheVoid : TheVoidCard
@@ -21,9 +21,10 @@ public sealed class StrikeTheVoid : TheVoidCard
     
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
+        var target = cardPlay.Target;
+        if (target == null) return;
 
-        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(cardPlay.Target)
+        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(target)
             .WithHitFx("vfx/vfx_attack_slash")
             .Execute(choiceContext);
     }

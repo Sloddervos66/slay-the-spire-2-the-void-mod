@@ -3,8 +3,8 @@ using TheVoid.TheVoidCode.Extensions;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Characters;
 using MegaCrit.Sts2.Core.Models;
-using TheVoid.TheVoidCode.Cards;
-using TheVoid.TheVoidCode.Relics;
+using TheVoid.TheVoidCode.Cards.Basic;
+using TheVoid.TheVoidCode.Relics.Starter;
 
 namespace TheVoid.TheVoidCode.Character;
 

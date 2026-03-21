@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Relics;
-using TheVoid.TheVoidCode.Relics;
+using TheVoid.TheVoidCode.Relics.Starter;
 
 namespace TheVoid.TheVoidCode.Patches;
 

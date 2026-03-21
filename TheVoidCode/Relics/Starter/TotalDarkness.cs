@@ -3,15 +3,17 @@ using MegaCrit.Sts2.Core.Entities.Relics;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using TheVoid.TheVoidCode.Powers;
 
-namespace TheVoid.TheVoidCode.Relics;
+namespace TheVoid.TheVoidCode.Relics.Starter;
 
 public class TotalDarkness : TheVoidRelic
 {
     public override RelicRarity Rarity => RelicRarity.Starter;
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<BlindPower>(10)];
-
+    
     public override async Task BeforeCombatStartLate()
     {
+        if (Owner.Creature.CombatState == null) return;
+        
         Flash();
         foreach (var enemy in Owner.Creature.CombatState.Enemies)
         {
