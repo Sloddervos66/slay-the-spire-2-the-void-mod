@@ -26,7 +26,7 @@ public sealed class Eclipse : TheVoidCard
         var target = cardPlay.Target;
         if (target == null) return;
         
-        await PowerCmd.Apply<BlindPower>(target, DynamicVars["BlindPower"].IntValue, Owner.Creature, null);
+        await PowerCmd.Apply<BlindPower>(target, DynamicVars["BlindPower"].BaseValue, Owner.Creature, null);
     }
 
     protected override void OnUpgrade()

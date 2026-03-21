@@ -32,7 +32,7 @@ public class HollowStrike : TheVoidCard
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(target)
             .WithHitFx("vfx/vfx_attack_slash")
             .Execute(choiceContext);
-        await PowerCmd.Apply<OnDeathDrawPower>(target, DynamicVars["OnDeathDrawPower"].IntValue, Owner.Creature, this);
+        await PowerCmd.Apply<OnDeathDrawPower>(target, DynamicVars["OnDeathDrawPower"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

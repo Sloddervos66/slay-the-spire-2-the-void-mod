@@ -19,7 +19,7 @@ public class TotalDarkness : TheVoidRelic
         Flash();
         foreach (var enemy in Owner.Creature.CombatState.Enemies)
         {
-            await PowerCmd.Apply<BlindPower>(enemy, DynamicVars["BlindPower"].IntValue, Owner.Creature, null);
+            await PowerCmd.Apply<BlindPower>(enemy, DynamicVars["BlindPower"].BaseValue, Owner.Creature, null);
         }
     }
 }
