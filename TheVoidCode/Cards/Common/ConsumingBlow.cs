@@ -1,0 +1,57 @@
+﻿using BaseLib.Utils;
+using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
+using MegaCrit.Sts2.Core.Localization;
+using MegaCrit.Sts2.Core.Localization.DynamicVars;
+using MegaCrit.Sts2.Core.ValueProps;
+using TheVoid.TheVoidCode.Character;
+using TheVoid.TheVoidCode.Powers.OnDeathTriggerPowers;
+
+namespace TheVoid.TheVoidCode.Cards.Common;
+
+[Pool(typeof(TheVoidCardPool))]
+public class ConsumingBlow : TheVoidCard
+{
+    protected override IEnumerable<DynamicVar> CanonicalVars =>
+    [
+        new DamageVar(5m, ValueProp.Move),
+        new PowerVar<OnDeathDrawPower>(0m)
+    ];
+
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => IsUpgraded
+        ? [HoverTipFactory.FromPower<OnDeathDrawPower>()]
+        : [];
+
+    public ConsumingBlow()
+        : base(2, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
+    {
+    }
+
+    protected override void AddExtraArgsToDescription(LocString description)
+    {
+        description.Add("IsUpgraded", IsUpgraded ? $" Apply [blue]{DynamicVars["OnDeathDrawPower"].BaseValue}[/blue] [gold]Last Gasp[/gold]." : "");
+    }
+    
+    protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
+    {
+        var target = cardPlay.Target;
+        if (target == null) return;
+
+        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(target)
+            .WithHitFx("vfx/vfx_attack_slash")
+            .Execute(choiceContext);
+
+        if (IsUpgraded)
+        {
+            await PowerCmd.Apply<OnDeathDrawPower>(target, DynamicVars["OnDeathDrawPower"].BaseValue, Owner.Creature, this);
+        }
+    }
+
+    protected override void OnUpgrade()
+    {
+        DynamicVars.Damage.UpgradeValueBy(1m);
+        DynamicVars["OnDeathDrawPower"].UpgradeValueBy(1m);
+    }
+}
