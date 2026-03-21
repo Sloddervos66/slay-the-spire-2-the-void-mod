@@ -20,6 +20,8 @@
     "THEVOID-VOID_TAP.title": "Void Tap",
     "THEVOID-UNRAVEL.description": "Lose {HpLoss:diff()} HP. Draw {Cards:diff()} {Cards:plural:card|cards}.",
     "THEVOID-UNRAVEL.title": "Unravel",
+    "THEVOID-DARKEN.description": "Apply [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] to ALL enemies.",
+    "THEVOID-DARKEN.title": "Darken",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse"

@@ -62,7 +62,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | Card            | Cost | Description                              | Upgrade        | Completed |
 |-----------------|------|------------------------------------------|----------------|-----------|
 | **Unravel**     | 0    | Lose 4 HP. Draw 3 cards.                 | Lose 3 HP.     | Y         |
-| **Darken**      | 1    | Apply 2 Blind to ALL enemies.            | Apply 3 Blind. | N         |
+| **Darken**      | 1    | Apply 2 Blind to ALL enemies. Exhaust.   | Apply 3 Blind. | Y         |
 | **Void Shroud** | 1    | Gain 7 Block. Apply 1 Blind to yourself. | Gain 10 Block. | N         |
 | **Wither**      | 1    | Apply 2 Blind to an enemy. Draw 1 card.  | Apply 3 Blind. | N         |
 | **Dark Touch**  | 1    | Draw 2 cards if you have Blind.          | Draw 3 cards   | N         |
