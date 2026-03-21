@@ -6,6 +6,7 @@ using MegaCrit.Sts2.Core.Helpers;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Nodes.Rooms;
 using MegaCrit.Sts2.Core.Nodes.Vfx;
+using MegaCrit.Sts2.Core.Random;
 using MegaCrit.Sts2.Core.ValueProps;
 
 namespace TheVoid.TheVoidCode.Powers;
@@ -23,7 +24,7 @@ public sealed class BlindPower : TheVoidPower
         if (command.Attacker != Owner) return Task.CompletedTask;
         
         var missChance = Math.Min(Amount, 100) / 100f;
-        _willMiss = Random.Shared.NextSingle() < missChance;
+        _willMiss = Owner.CombatState!.RunState.Rng.Niche.NextFloat() < missChance;
         return Task.CompletedTask;
     }
     
@@ -33,7 +34,7 @@ public sealed class BlindPower : TheVoidPower
         if (dealer != Owner) return 1m;
         if (!props.IsPoweredAttack_()) return 1m;
         if (!_willMiss) return 1m;
-
+        
         var vfxContainer = NCombatRoom.Instance?.CombatVfxContainer;
         vfxContainer?.AddChildSafely(NDamageBlockedVfx.Create(target));
         return 0m;
