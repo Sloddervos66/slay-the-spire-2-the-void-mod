@@ -34,3 +34,111 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 ---
 
 *Happy climbing. Don't let the Void consume you... or do.*
+
+---
+
+# SPOILERS BELOW
+
+--- 
+
+# Card Roster
+
+## Common (14)
+
+### Attacks (8)
+
+| Card               | Cost | Description                                        | Upgrade                                 | Completed |
+|--------------------|------|----------------------------------------------------|-----------------------------------------|-----------|
+| **Hollow Strike**  | 1    | Deal 6 damage. Apply 1 Last Gasp.                  | Deal 9 damage.                          | Y         |
+| **Void Slash**     | 1    | Deal 8 damage. Apply 1 Void Pulse.                 | Deal 11 damage.                         | Y         |
+| **Blind Side**     | 1    | Apply 2 Blind. Deal 4 damage.                      | Apply 3 Blind.                          | Y         |
+| **Void Drain**     | 1    | Lose 3 HP. Deal 10 damage.                         | Lose 4 HP. Deal 13 damage.              | Y         |
+| **Consuming Blow** | 2    | Deal 5 damage twice.                               | Deal 6 damage twice, apply 1 Last Gasp. | Y         |
+| **Gouged Eyes**    | 1    | Deal 7 damage. If you have Blind, deal 12 instead. | 9/16.                                   | Y         |
+| **Void Tap**       | 0    | Deal 3 damage. Apply 1 Blind. Exhaust              | Apply 2 Blind.                          | Y         |
+
+### Skills (4)
+
+| Card            | Cost | Description                              | Upgrade        | Completed |
+|-----------------|------|------------------------------------------|----------------|-----------|
+| **Unravel**     | 0    | Lose 4 HP. Draw 3 cards.                 | Lose 3 HP.     | N         |
+| **Darken**      | 1    | Apply 2 Blind to ALL enemies.            | Apply 3 Blind. | N         |
+| **Void Shroud** | 1    | Gain 7 Block. Apply 1 Blind to yourself. | Gain 10 Block. | N         |
+| **Wither**      | 1    | Apply 2 Blind to an enemy. Draw 1 card.  | Apply 3 Blind. | N         |
+| **Dark Touch**  | 1    | Draw 2 cards if you have Blind.          | Draw 3 cards   | N         |
+
+### Powers (2)
+
+| Card           | Cost | Description                                                             | Upgrade                                                 | Completed |
+|----------------|------|-------------------------------------------------------------------------|---------------------------------------------------------|-----------|
+| **Fade**       | 1    | At the start of each turn, gain 1 energy and apply 1 Blind to yourself. | Apply 2 Blind to yourself.                              | N         |
+| **Void Sight** | 1    | Whenever you apply Blind, draw 1 card.                                  | Whenever you apply Blind, draw 1 card and gain 1 Block. | N         |
+
+---
+
+## Uncommon (10)
+
+### Attacks (5)
+
+| Card               | Cost | Description                                                    | Upgrade                             | Completed |
+|--------------------|------|----------------------------------------------------------------|-------------------------------------|-----------|
+| **Devour**         | 2    | Deal 10 damage. Apply 1 Death Feed.                            | Deal 13 damage, apply 2 Death Feed. | N         |
+| **Eclipse Strike** | 2    | Apply 2 Blind. Deal 14 damage. Apply 1 Void Flash.             | Apply 3 Blind initially.            | N         |
+| **Null Step**      | 1    | Gain 8 Block. If an enemy is Blinded, gain 4 additional Block. | 10 Block / 5 additional.            | N         |
+| **Hemorrhage**     | 2    | Lose 5 HP. Deal 18 damage.                                     | Lose 4 HP. Deal 21 damage.          | N         |
+| **Blind Fury**     | 1    | Deal 5 damage for each Blind stack on the target.              | Deal 6 damage per stack.            | N         |
+
+### Skills (4)
+
+| Card              | Cost | Description                                                       | Upgrade           | Completed |
+|-------------------|------|-------------------------------------------------------------------|-------------------|-----------|
+| **Void Offering** | 1    | Exhaust a card in your hand. Draw 2 cards.                        | Draw 3 cards.     | N         |
+| **Void Pact**     | 0    | Lose HP equal to 25% of your max HP. Gain 3 energy. Exhaust.      | Lose 20% instead. | N         |
+| **Black Mirror**  | 1    | Apply Blind equal to your current Blind stacks to a target enemy. | Innate.           | N         |
+| **Null Ritual**   | 2    | Lose 6 HP. Apply 4 Blind to ALL enemies. Draw 2 cards.            | Lose 5 HP.        | N         |
+
+### Powers (1)
+
+| Card           | Cost | Description                          | Upgrade           | Completed |
+|----------------|------|--------------------------------------|-------------------|-----------|
+| **Blood Rite** | 1    | Whenever you lose HP, gain 1 energy. | Also draw 1 card. | N         |
+
+---
+
+## Rare (6)
+
+### Attacks (2)
+
+| Card                | Cost | Description                                                                       | Upgrade             | Completed |
+|---------------------|------|-----------------------------------------------------------------------------------|---------------------|-----------|
+| **Event Horizon**   | 3    | Deal 18 damage to ALL enemies. If any enemy dies, gain 2 energy and draw 2 cards. | Deal 22 damage.     | N         |
+| **Void Execution**  | 2    | Deal 20 damage. If the enemy dies, gain 3 energy. Exhaust.                        | No longer Exhausts. | N         |
+
+### Skills (2)
+
+| Card                     | Cost | Description                                                                         | Upgrade       | Completed |
+|--------------------------|------|-------------------------------------------------------------------------------------|---------------|-----------|
+| **The Void Stares Back** | 2    | Lose HP equal to 40% of your max HP. Deal damage equal to HP lost times 3. Exhaust. | Times 4.      | N         |
+| **Unending Hunger**      | 0    | Whenever an enemy dies this turn, draw 2 cards. Exhaust.                            | Draw 3 cards. | N         |
+
+### Powers (2)
+
+| Card               | Cost | Description                                                     | Upgrade                  | Completed |
+|--------------------|------|-----------------------------------------------------------------|--------------------------|-----------|
+| **Void Ascendant** | 3    | At the start of each turn, apply 1 Last Gasp to ALL enemies.    | Also apply 1 Void Pulse. | N         |
+| **Abyssal Gaze**   | 2    | Whenever an enemy dies, apply 3 Blind to all remaining enemies. | Apply 4 Blind.           | N         |
+
+---
+
+### On-Death Power Names
+| Power Name     | Effect                                     |
+|----------------|--------------------------------------------|
+| **Last Gasp**  | On death, draw cards                       |
+| **Void Pulse** | On death, gain energy                      |
+| **Death Feed** | On death, heal HP                          |
+| **Void Flash** | On death, apply Blind to remaining enemies |
+
+### New Powers
+| Power Name | Effect                                                              |
+|------------|---------------------------------------------------------------------|
+| Blind      | Attacks are X less accurate, where X is the number of Blind stacks. |
