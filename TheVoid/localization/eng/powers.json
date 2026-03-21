@@ -25,5 +25,13 @@
     
     "THEVOID-VOID_SIGHT_POWER.description": "Whenever you apply [gold]Blind[/gold], draw [blue]1[/blue] card.",
     "THEVOID-VOID_SIGHT_POWER.smartDescription": "Whenever you apply [gold]Blind[/gold], draw [blue]{Amount}[/blue] {Amount:plural:card|cards}.",
-    "THEVOID-VOID_SIGHT_POWER.title": "Void Sight"
+    "THEVOID-VOID_SIGHT_POWER.title": "Void Sight",
+
+    "THEVOID-BLOOD_RITE_POWER.description": "Whenever you lose HP, gain 1 [gold]Energy[/gold].",
+    "THEVOID-BLOOD_RITE_POWER.smartDescription": "Whenever you lose HP, gain [blue]1[/blue] [gold]Energy[/gold].",
+    "THEVOID-BLOOD_RITE_POWER.title": "Blood Rite",
+
+    "THEVOID-BLOOD_RITE_UPGRADED_POWER.description": "Whenever you lose HP, gain 1 [gold]Energy[/gold] and draw 1 card.",
+    "THEVOID-BLOOD_RITE_UPGRADED_POWER.smartDescription": "Whenever you lose HP, gain [blue]1[/blue] [gold]Energy[/gold] and draw [blue]{Amount}[/blue] {Amount:plural:card|cards}.",
+    "THEVOID-BLOOD_RITE_UPGRADED_POWER.title": "Blood Rite"
 }
