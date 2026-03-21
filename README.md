@@ -43,9 +43,9 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 # Card Roster
 
-## Common (14)
+## Common (13)
 
-### Attacks (8)
+### Attacks (7)
 
 | Card               | Cost | Description                                        | Upgrade                                 | Completed |
 |--------------------|------|----------------------------------------------------|-----------------------------------------|-----------|
