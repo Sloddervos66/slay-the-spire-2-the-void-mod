@@ -65,14 +65,14 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | **Darken**      | 1    | Apply 2 Blind to ALL enemies. Exhaust.            | Apply 3 Blind.                | Y         |
 | **Void Shroud** | 1    | Gain 7 Block. Apply 1 Blind to yourself.          | Gain 10 Block. Apply 2 Blind. | Y         |
 | **Wither**      | 2    | Apply 2 Blind to an enemy. Draw 1 card. Ethereal. | Apply 1 Blind. Draw 2 cards.  | Y         |
-| **Dark Touch**  | 1    | Draw 2 cards if you have Blind.                   | Draw 3 cards.                 | N         |
+| **Dark Touch**  | 1    | Draw 2 cards if you have Blind.                   | Draw 3 cards.                 | Y         |
 
 ### Powers (2)
 
-| Card           | Cost | Description                                                             | Upgrade                                                 | Completed |
-|----------------|------|-------------------------------------------------------------------------|---------------------------------------------------------|-----------|
-| **Fade**       | 1    | At the start of each turn, gain 1 energy and apply 1 Blind to yourself. | Apply 2 Blind to yourself.                              | N         |
-| **Void Sight** | 1    | Whenever you apply Blind, draw 1 card.                                  | Whenever you apply Blind, draw 1 card and gain 1 Block. | N         |
+| Card           | Cost | Description                            | Upgrade                                                 | Completed |
+|----------------|------|----------------------------------------|---------------------------------------------------------|-----------|
+| **Fade**       | 3    | Gain 2 Tunnel Vision.                  | Gain 1 Tunnel Vision.                                   | Y         |
+| **Void Sight** | 2    | Whenever you apply Blind, draw 1 card. | Whenever you apply Blind, draw 1 card and gain 1 Block. | N         |
 
 ---
 
@@ -139,6 +139,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | **Void Flash** | On death, apply Blind to remaining enemies |
 
 ### New Powers
-| Power Name | Effect                                                              |
-|------------|---------------------------------------------------------------------|
-| Blind      | Attacks are X less accurate, where X is the number of Blind stacks. |
+| Power Name    | Effect                                                                                                             |
+|---------------|--------------------------------------------------------------------------------------------------------------------|
+| Blind         | Attacks are X less accurate, where X is the number of Blind stacks.                                                |
+| Tunnel Vision | At the start of each turn gain 1 Energy, apply X Blind to yourself. Where X is the number of Tunnel Vision stacks. |

@@ -28,6 +28,8 @@
     "THEVOID-WITHER.title": "Wither",
     "THEVOID-DARK_TOUCH.description": "Draw {Cards:diff()} {Cards:plural:card|cards} if you have [gold]Blind[/gold].",
     "THEVOID-DARK_TOUCH.title": "Dark Touch",
+    "THEVOID-FADE.description": "Gain [blue]{TunnelVisionPower:diff()}[/blue] [gold]Tunnel Vision[/gold].",
+    "THEVOID-FADE.title": "Fade",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse"
