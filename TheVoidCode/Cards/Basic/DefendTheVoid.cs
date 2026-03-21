@@ -9,16 +9,11 @@ using TheVoid.TheVoidCode.Character;
 namespace TheVoid.TheVoidCode.Cards.Basic;
 
 [Pool(typeof(TheVoidCardPool))]
-public sealed class DefendTheVoid : TheVoidCard
+public sealed class DefendTheVoid() : TheVoidCard(1, CardType.Skill, CardRarity.Basic, TargetType.Self)
 {
     public override bool GainsBlock => true;
     protected override HashSet<CardTag> CanonicalTags => [CardTag.Defend];
     protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(5m, ValueProp.Move)];
-
-    public DefendTheVoid() 
-        : base(1, CardType.Skill, CardRarity.Basic, TargetType.Self)
-    {
-    }
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {

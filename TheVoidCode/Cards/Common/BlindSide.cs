@@ -11,7 +11,7 @@ using TheVoid.TheVoidCode.Powers;
 namespace TheVoid.TheVoidCode.Cards.Common;
 
 [Pool(typeof(TheVoidCardPool))]
-public sealed class BlindSide : TheVoidCard
+public sealed class BlindSide() : TheVoidCard(2, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<BlindPower>()];
     protected override IEnumerable<DynamicVar> CanonicalVars => 
@@ -21,11 +21,6 @@ public sealed class BlindSide : TheVoidCard
     ];
 
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
-
-    public BlindSide()
-        : base(2, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
-    {
-    }
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {

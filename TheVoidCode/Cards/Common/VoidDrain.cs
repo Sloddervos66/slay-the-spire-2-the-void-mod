@@ -9,18 +9,13 @@ using TheVoid.TheVoidCode.Character;
 namespace TheVoid.TheVoidCode.Cards.Common;
 
 [Pool(typeof(TheVoidCardPool))]
-public class VoidDrain : TheVoidCard
+public class VoidDrain() : TheVoidCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new DamageVar(10m, ValueProp.Move),
         new HpLossVar(3m)
     ];
-
-    public VoidDrain()
-        : base(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
-    {
-    }
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {

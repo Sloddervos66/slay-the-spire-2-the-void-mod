@@ -11,7 +11,7 @@ using TheVoid.TheVoidCode.Powers.OnDeathTriggerPowers;
 namespace TheVoid.TheVoidCode.Cards.Common;
 
 [Pool(typeof(TheVoidCardPool))]
-public sealed class VoidSlash : TheVoidCard
+public sealed class VoidSlash() : TheVoidCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<OnDeathGainEnergyPower>()];
     protected override IEnumerable<DynamicVar> CanonicalVars =>
@@ -19,11 +19,6 @@ public sealed class VoidSlash : TheVoidCard
         new DamageVar(8m, ValueProp.Move),
         new PowerVar<OnDeathGainEnergyPower>(1m)
     ];
-
-    public VoidSlash()
-        : base(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
-    {
-    }
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {

@@ -11,18 +11,13 @@ using TheVoid.TheVoidCode.Powers.OnDeathTriggerPowers;
 namespace TheVoid.TheVoidCode.Cards.Common;
 
 [Pool(typeof(TheVoidCardPool))]
-public class HollowStrike : TheVoidCard
+public class HollowStrike() : TheVoidCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<OnDeathDrawPower>()];
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new DamageVar(6m, ValueProp.Move),
         new PowerVar<OnDeathDrawPower>(1m)
     ];
-
-    public HollowStrike()
-        : base(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
-    {
-    }
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {

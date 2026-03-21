@@ -9,16 +9,11 @@ using TheVoid.TheVoidCode.Character;
 namespace TheVoid.TheVoidCode.Cards.Basic;
 
 [Pool(typeof(TheVoidCardPool))]
-public sealed class StrikeTheVoid : TheVoidCard
+public sealed class StrikeTheVoid() : TheVoidCard(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy)
 {
     protected override HashSet<CardTag> CanonicalTags => [CardTag.Strike];
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(6m, ValueProp.Move)];
 
-    public StrikeTheVoid()
-        : base(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy)
-    {
-    }
-    
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         var target = cardPlay.Target;

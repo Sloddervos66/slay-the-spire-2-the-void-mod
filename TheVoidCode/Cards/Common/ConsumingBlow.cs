@@ -12,7 +12,7 @@ using TheVoid.TheVoidCode.Powers.OnDeathTriggerPowers;
 namespace TheVoid.TheVoidCode.Cards.Common;
 
 [Pool(typeof(TheVoidCardPool))]
-public class ConsumingBlow : TheVoidCard
+public class ConsumingBlow() : TheVoidCard(2, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
@@ -23,11 +23,6 @@ public class ConsumingBlow : TheVoidCard
     protected override IEnumerable<IHoverTip> ExtraHoverTips => IsUpgraded
         ? [HoverTipFactory.FromPower<OnDeathDrawPower>()]
         : [];
-
-    public ConsumingBlow()
-        : base(2, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
-    {
-    }
 
     protected override void AddExtraArgsToDescription(LocString description)
     {
