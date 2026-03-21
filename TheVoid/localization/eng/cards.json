@@ -14,6 +14,8 @@
     "THEVOID-VOID_DRAIN.title": "Void Drain",
     "THEVOID-CONSUMING_BLOW.description": "Deal {Damage:diff()} damage twice.{IsUpgraded}",
     "THEVOID-CONSUMING_BLOW.title": "Consuming Blow",
+    "THEVOID-GOUGED_EYES.description": "Deal {Damage:diff()} damage. If you have [gold]Blind[/gold] deal {BlindedDamage:diff()} instead.",
+    "THEVOID-GOUGED_EYES.title": "Gouged Eyes",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse"
