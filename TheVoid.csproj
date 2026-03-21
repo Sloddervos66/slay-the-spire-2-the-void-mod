@@ -103,7 +103,6 @@
 
     <ItemGroup>
         <Folder Include="TheVoidCode\Cards\Ancient\" />
-        <Folder Include="TheVoidCode\Cards\Common\" />
         <Folder Include="TheVoidCode\Cards\Uncommon\" />
         <Folder Include="TheVoidCode\Cards\Rare\" />
         <Folder Include="TheVoidCode\Relics\Ancient\" />

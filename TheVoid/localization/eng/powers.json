@@ -4,5 +4,14 @@
     "THEVOID-BLIND_POWER.title": "Blind",
     "THEVOID-ON_DEATH_DRAW_POWER.description": "On death, draw [gold]X[/gold] cards, where X is the number of [gold]Last Gasp[/gold] stacks.",
     "THEVOID-ON_DEATH_DRAW_POWER.smartDescription": "On death, draw [blue]{Amount}[/blue] {Amount:plural:card|cards}.",
-    "THEVOID-ON_DEATH_DRAW_POWER.title": "Last Gasp"
+    "THEVOID-ON_DEATH_DRAW_POWER.title": "Last Gasp",
+    "THEVOID-ON_DEATH_GAIN_ENERGY_POWER.description": "On death, gain [gold]X[/gold] [gold]Energy[/gold], where X is the number of [gold]Void Pulse[/gold] stacks.",
+    "THEVOID-ON_DEATH_GAIN_ENERGY_POWER.smartDescription": "On death, gain [blue]{Amount}[/blue] [gold]Energy[/gold].",
+    "THEVOID-ON_DEATH_GAIN_ENERGY_POWER.title": "Void Pulse",
+    "THEVOID-ON_DEATH_HEAL_POWER.description": "On death, heal [gold]X[/gold] HP, where X is the number of [gold]Void Mend[/gold] stacks.",
+    "THEVOID-ON_DEATH_HEAL_POWER.smartDescription": "On death, heal [blue]{Amount}[/blue] HP.",
+    "THEVOID-ON_DEATH_HEAL_POWER.title": "Void Mend",
+    "THEVOID-ON_DEATH_APPLY_BLIND_POWER.description": "On death, apply [gold]X Blind[/gold], where X is the number of [gold]Void Flash[/gold] stacks.",
+    "THEVOID-ON_DEATH_APPLY_BLIND_POWER.smartDescription": "On death, apply [blue]{Amount}{/blue] [gold]Blind[/gold]",
+    "THEVOID-ON_DEATH_APPLY_BLIND_POWER.title": "Void Flash"
 }
