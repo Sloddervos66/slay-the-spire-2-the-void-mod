@@ -5,6 +5,8 @@ namespace TheVoid.TheVoidCode.Powers.OnDeathTriggerPowers;
 
 public sealed class OnDeathDrawPower : OnDeathTriggerPower
 {
+    public const string Name = nameof(OnDeathDrawPower);
+    
     protected override async Task TriggerEffect(PlayerChoiceContext choiceContext)
     {
         var player = Applier?.Player;

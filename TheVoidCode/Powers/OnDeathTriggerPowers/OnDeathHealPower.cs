@@ -5,6 +5,8 @@ namespace TheVoid.TheVoidCode.Powers.OnDeathTriggerPowers;
 
 public sealed class OnDeathHealPower : OnDeathTriggerPower
 {
+    public const string Name = nameof(OnDeathHealPower);
+    
     protected override async Task TriggerEffect(PlayerChoiceContext choiceContext)
     {
         var player = Applier?.Player;

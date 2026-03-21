@@ -5,6 +5,7 @@ namespace TheVoid.TheVoidCode.Powers.OnDeathTriggerPowers;
 
 public sealed class OnDeathApplyBlindPower : OnDeathTriggerPower
 {
+    public const string Name = nameof(OnDeathApplyBlindPower);
     protected override async Task TriggerEffect(PlayerChoiceContext choiceContext)
     {
         var player = Applier?.Player?.Creature;
