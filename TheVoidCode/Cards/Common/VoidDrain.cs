@@ -24,7 +24,7 @@ public sealed class VoidDrain() : TheVoidCard(1, CardType.Attack, CardRarity.Com
         
         await CreatureCmd.Damage(choiceContext, Owner.Creature, DynamicVars.HpLoss.BaseValue, ValueProp.Unblockable | ValueProp.Unpowered | ValueProp.Move, this);
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(target)
-            .WithHitFx("vfx/vfx_attack_slash")
+            .WithHitFx(DefaultAttackVfx)
             .Execute(choiceContext);
     }
 

@@ -12,20 +12,20 @@ namespace TheVoid.TheVoidCode.Cards.Common;
 [Pool(typeof(TheVoidCardPool))]
 public sealed class Fade() : TheVoidCard(3, CardType.Power, CardRarity.Common, TargetType.Self)
 {
-    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<TunnelVisionPower>()];
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<FadePower>()];
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new EnergyVar(1),
-        new PowerVar<TunnelVisionPower>(2m)
+        new PowerVar<FadePower>(2m)
     ];
     
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<TunnelVisionPower>(Owner.Creature, DynamicVars["TunnelVisionPower"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<FadePower>(Owner.Creature, DynamicVars[FadePower.Name].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
     {
-        DynamicVars["TunnelVisionPower"].UpgradeValueBy(-1m);
+        DynamicVars[FadePower.Name].UpgradeValueBy(-1m);
     }
 }

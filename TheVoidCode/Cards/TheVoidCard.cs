@@ -11,6 +11,9 @@ namespace TheVoid.TheVoidCode.Cards;
 public abstract class TheVoidCard(int cost, CardType type, CardRarity rarity, TargetType target, bool shouldShowInCardLibrary = true, bool autoAdd = true) :
     CustomCardModel(cost, type, rarity, target, shouldShowInCardLibrary, autoAdd)
 {
+    // Default Vfx in order to do some quick stuff
+    protected const string DefaultAttackVfx = "vfx/vfx_attack_slash";
+    
     //Image size:
     //Normal art: 1000x760 (Using 500x380 should also work, it will simply be scaled.)
     //Full art: 606x852

@@ -25,9 +25,9 @@ public sealed class HollowStrike() : TheVoidCard(1, CardType.Attack, CardRarity.
         if (target == null) return;
         
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(target)
-            .WithHitFx("vfx/vfx_attack_slash")
+            .WithHitFx(DefaultAttackVfx)
             .Execute(choiceContext);
-        await PowerCmd.Apply<OnDeathDrawPower>(target, DynamicVars["OnDeathDrawPower"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<OnDeathDrawPower>(target, DynamicVars[OnDeathDrawPower.Name].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

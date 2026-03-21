@@ -29,7 +29,7 @@ public sealed class GougedEyes() : TheVoidCard(1, CardType.Attack, CardRarity.Co
 
         var damage = Owner.Creature.HasBlind() ? DynamicVars[BlindedDamage].BaseValue : DynamicVars.Damage.BaseValue;
         await DamageCmd.Attack(damage).FromCard(this).Targeting(target)
-            .WithHitFx("vfx/vfx_attack_slash")
+            .WithHitFx(DefaultAttackVfx)
             .Execute(choiceContext);
     }
 

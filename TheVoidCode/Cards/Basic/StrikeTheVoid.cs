@@ -20,7 +20,7 @@ public sealed class StrikeTheVoid() : TheVoidCard(1, CardType.Attack, CardRarity
         if (target == null) return;
 
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(target)
-            .WithHitFx("vfx/vfx_attack_slash")
+            .WithHitFx(DefaultAttackVfx)
             .Execute(choiceContext);
     }
 

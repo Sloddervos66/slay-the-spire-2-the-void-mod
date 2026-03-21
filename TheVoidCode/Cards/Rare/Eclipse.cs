@@ -21,11 +21,11 @@ public sealed class Eclipse() : TheVoidCard(2, CardType.Skill, CardRarity.Rare, 
         var target = cardPlay.Target;
         if (target == null) return;
         
-        await PowerCmd.Apply<BlindPower>(target, DynamicVars["BlindPower"].BaseValue, Owner.Creature, null);
+        await PowerCmd.Apply<BlindPower>(target, DynamicVars[BlindPower.Name].BaseValue, Owner.Creature, null);
     }
 
     protected override void OnUpgrade()
     {
-        DynamicVars["BlindPower"].UpgradeValueBy(5m);
+        DynamicVars[BlindPower.Name].UpgradeValueBy(5m);
     }
 }

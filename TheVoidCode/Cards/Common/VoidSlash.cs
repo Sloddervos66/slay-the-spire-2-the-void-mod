@@ -26,9 +26,9 @@ public sealed class VoidSlash() : TheVoidCard(1, CardType.Attack, CardRarity.Com
         if (target == null) return;
         
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(target)
-            .WithHitFx("vfx/vfx_attack_slash")
+            .WithHitFx(DefaultAttackVfx)
             .Execute(choiceContext);
-        await PowerCmd.Apply<OnDeathGainEnergyPower>(target, DynamicVars["OnDeathGainEnergyPower"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<OnDeathGainEnergyPower>(target, DynamicVars[OnDeathGainEnergyPower.Name].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

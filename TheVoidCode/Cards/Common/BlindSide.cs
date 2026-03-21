@@ -28,13 +28,13 @@ public sealed class BlindSide() : TheVoidCard(2, CardType.Attack, CardRarity.Com
         if (target == null) return;
 
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(target)
-            .WithHitFx("vfx/vfx_attack_slash")
+            .WithHitFx(DefaultAttackVfx)
             .Execute(choiceContext);
-        await PowerCmd.Apply<BlindPower>(target, DynamicVars["BlindPower"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<BlindPower>(target, DynamicVars[BlindPower.Name].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
     {
-        DynamicVars["BlindPower"].UpgradeValueBy(1m);
+        DynamicVars[BlindPower.Name].UpgradeValueBy(1m);
     }
 }

@@ -26,7 +26,7 @@ public sealed class ConsumingBlow() : TheVoidCard(2, CardType.Attack, CardRarity
 
     protected override void AddExtraArgsToDescription(LocString description)
     {
-        description.Add("IsUpgraded", IsUpgraded ? $" Apply [blue]{DynamicVars["OnDeathDrawPower"].BaseValue}[/blue] [gold]Last Gasp[/gold]." : "");
+        description.Add("IsUpgraded", IsUpgraded ? $" Apply [blue]{DynamicVars[OnDeathDrawPower.Name].BaseValue}[/blue] [gold]Last Gasp[/gold]." : "");
     }
     
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
@@ -36,18 +36,18 @@ public sealed class ConsumingBlow() : TheVoidCard(2, CardType.Attack, CardRarity
 
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).WithHitCount(2).FromCard(this)
             .Targeting(target)
-            .WithHitFx("vfx/vfx_attack_slash")
+            .WithHitFx(DefaultAttackVfx)
             .Execute(choiceContext);
 
         if (IsUpgraded)
         {
-            await PowerCmd.Apply<OnDeathDrawPower>(target, DynamicVars["OnDeathDrawPower"].BaseValue, Owner.Creature, this);
+            await PowerCmd.Apply<OnDeathDrawPower>(target, DynamicVars[OnDeathDrawPower.Name].BaseValue, Owner.Creature, this);
         }
     }
 
     protected override void OnUpgrade()
     {
         DynamicVars.Damage.UpgradeValueBy(1m);
-        DynamicVars["OnDeathDrawPower"].UpgradeValueBy(1m);
+        DynamicVars[OnDeathDrawPower.Name].UpgradeValueBy(1m);
     }
 }

@@ -23,12 +23,12 @@ public sealed class VoidShroud() : TheVoidCard(1, CardType.Skill, CardRarity.Com
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         await CreatureCmd.GainBlock(Owner.Creature, DynamicVars.Block, cardPlay);
-        await PowerCmd.Apply<BlindPower>(Owner.Creature, DynamicVars["BlindPower"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<BlindPower>(Owner.Creature, DynamicVars[BlindPower.Name].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
     {
         DynamicVars.Block.UpgradeValueBy(3m);
-        DynamicVars["BlindPower"].UpgradeValueBy(1m);
+        DynamicVars[BlindPower.Name].UpgradeValueBy(1m);
     }
 }

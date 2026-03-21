@@ -25,13 +25,13 @@ public sealed class Wither() : TheVoidCard(2, CardType.Skill, CardRarity.Common,
         var target = cardPlay.Target;
         if (target == null) return;
 
-        await PowerCmd.Apply<BlindPower>(target, DynamicVars["BlindPower"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<BlindPower>(target, DynamicVars[BlindPower.Name].BaseValue, Owner.Creature, this);
         await CardPileCmd.Draw(choiceContext, DynamicVars.Cards.BaseValue, Owner);
     }
 
     protected override void OnUpgrade()
     {
         DynamicVars.Cards.UpgradeValueBy(1m);
-        DynamicVars["BlindPower"].UpgradeValueBy(-1m);
+        DynamicVars[BlindPower.Name].UpgradeValueBy(-1m);
     }
 }
