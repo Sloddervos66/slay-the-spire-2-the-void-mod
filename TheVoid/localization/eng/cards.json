@@ -28,8 +28,10 @@
     "THEVOID-WITHER.title": "Wither",
     "THEVOID-DARK_TOUCH.description": "Draw {Cards:diff()} {Cards:plural:card|cards} if you have [gold]Blind[/gold].",
     "THEVOID-DARK_TOUCH.title": "Dark Touch",
-    "THEVOID-FADE.description": "Gain [blue]{TunnelVisionPower:diff()}[/blue] [gold]Tunnel Vision[/gold].",
+    "THEVOID-FADE.description": "Gain 1 [gold]Energy[/gold], Apply [blue]{Amount}[/blue] [gold]Blind[/gold] to yourself.",
     "THEVOID-FADE.title": "Fade",
+    "THEVOID-VOID_SIGHT.description": "Whenever you apply [gold]Blind[/gold], draw {Cards:diff()} {Cards:plural:card|cards}.",
+    "THEVOID-VOID_SIGHT.title": "Void Sight",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse"

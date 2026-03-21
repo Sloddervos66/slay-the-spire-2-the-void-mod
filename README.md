@@ -69,10 +69,10 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ### Powers (2)
 
-| Card           | Cost | Description                            | Upgrade                                                 | Completed |
-|----------------|------|----------------------------------------|---------------------------------------------------------|-----------|
-| **Fade**       | 3    | Gain 2 Tunnel Vision.                  | Gain 1 Tunnel Vision.                                   | Y         |
-| **Void Sight** | 2    | Whenever you apply Blind, draw 1 card. | Whenever you apply Blind, draw 1 card and gain 1 Block. | N         |
+| Card           | Cost | Description                                                         | Upgrade                                                             | Completed |
+|----------------|------|---------------------------------------------------------------------|---------------------------------------------------------------------|-----------|
+| **Fade**       | 3    | At the start of each turn gain 1 Energy, apply 2 Blind to yourself. | At the start of each turn gain 1 Energy, apply 1 Blind to yourself. | Y         |
+| **Void Sight** | 2    | Whenever you apply Blind, draw 1 card.                              | Whenever you apply Blind, draw 2 cards.                             | Y         |
 
 ---
 
@@ -141,5 +141,4 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 ### New Powers
 | Power Name    | Effect                                                                                                             |
 |---------------|--------------------------------------------------------------------------------------------------------------------|
-| Blind         | Attacks are X less accurate, where X is the number of Blind stacks.                                                |
-| Tunnel Vision | At the start of each turn gain 1 Energy, apply X Blind to yourself. Where X is the number of Tunnel Vision stacks. |
+| Blind         | Attacks are X less accurate, where X is the number of Blind stacks.                                                | |
