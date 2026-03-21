@@ -139,6 +139,6 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | **Void Flash** | On death, apply Blind to remaining enemies |
 
 ### New Powers
-| Power Name    | Effect                                                                                                             |
-|---------------|--------------------------------------------------------------------------------------------------------------------|
-| Blind         | Attacks are X less accurate, where X is the number of Blind stacks.                                                | |
+| Power Name    | Effect                                                               |
+|---------------|----------------------------------------------------------------------|
+| Blind         | Attacks are X% less accurate, where X is the number of Blind stacks. | |
