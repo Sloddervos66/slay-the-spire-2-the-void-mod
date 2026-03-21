@@ -24,6 +24,8 @@
     "THEVOID-DARKEN.title": "Darken",
     "THEVOID-VOID_SHROUD.description": "Gain {Block:diff()} [gold]Block[/gold]. Apply [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] to yourself.",
     "THEVOID-VOID_SHROUD.title": "Void Shroud",
+    "THEVOID-WITHER.description": "Apply [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold]. Draw {Cards:diff()} {Cards:plural:card|cards}.",
+    "THEVOID-WITHER.title": "Wither",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse"
