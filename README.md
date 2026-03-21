@@ -101,7 +101,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 | Card           | Cost | Description                          | Upgrade           | Completed |
 |----------------|------|--------------------------------------|-------------------|-----------|
-| **Blood Rite** | 1    | Whenever you lose HP, gain 1 energy. | Also draw 1 card. | N         |
+| **Blood Rite** | 1    | Whenever you lose HP, gain 1 energy. | Also draw 1 card. | Y         |
 
 ---
 

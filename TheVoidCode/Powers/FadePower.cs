@@ -18,8 +18,15 @@ public sealed class FadePower : TheVoidPower
     public override async Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
     {
         if (player != Owner.Player) return;
-
-        await PlayerCmd.GainEnergy(1, player);
         await PowerCmd.Apply<BlindPower>(Owner, Amount, Owner, null);
+    }
+
+    public override decimal ModifyMaxEnergy(Player player, decimal amount)
+    {
+        if (player != Owner.Player)
+        {
+            return amount;
+        }
+        return amount + 1;
     }
 }

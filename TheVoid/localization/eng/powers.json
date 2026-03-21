@@ -19,8 +19,8 @@
     "THEVOID-ON_DEATH_APPLY_BLIND_POWER.smartDescription": "On death, apply [blue]{Amount}{/blue] [gold]Blind[/gold]",
     "THEVOID-ON_DEATH_APPLY_BLIND_POWER.title": "Void Flash",
 
-    "THEVOID-FADE_POWER.description": "Gain 1 [gold]Energy[/gold], apply [gold]X Blind[/gold] to yourself, where X is the number of [gold]Tunnel Vision[/gold] stacks.",
-    "THEVOID-FADE_POWER.smartDescription": "Gain 1 [gold]Energy[/gold], Apply [blue]{Amount}[/blue] [gold]Blind[/gold] to yourself.",
+    "THEVOID-FADE_POWER.description": "At the start of each turn gain [blue]1[/blue] [gold]Energy[/gold] and apply [gold]X Blind[/gold] to yourself, where X is the number of [gold]Fade[/gold] stacks.",
+    "THEVOID-FADE_POWER.smartDescription": "At the start of each turn gain [blue]1[/blue] [gold]Energy[/gold] and apply [blue]{Amount}[/blue] [gold]Blind[/gold] to yourself.",
     "THEVOID-FADE_POWER.title": "Fade",
     
     "THEVOID-VOID_SIGHT_POWER.description": "Whenever you apply [gold]Blind[/gold], draw [blue]1[/blue] card.",
