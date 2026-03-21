@@ -113,7 +113,6 @@
         <Folder Include="TheVoidCode\Relics\Rare\" />
         <Folder Include="TheVoidCode\Relics\Shop\" />
         <Folder Include="TheVoidCode\Relics\Uncommon\" />
-        <Folder Include="TheVoid\images\card_portraits\big\"/>
     </ItemGroup>
 
     <ItemGroup>
