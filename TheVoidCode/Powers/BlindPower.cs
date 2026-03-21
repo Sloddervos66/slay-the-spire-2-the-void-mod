@@ -12,6 +12,7 @@ namespace TheVoid.TheVoidCode.Powers;
 
 public sealed class BlindPower : TheVoidPower
 {
+    public const string Name = nameof(BlindPower);
     public override PowerType Type => PowerType.Debuff;
     public override PowerStackType StackType => PowerStackType.Counter;
 
