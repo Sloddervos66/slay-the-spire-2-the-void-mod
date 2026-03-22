@@ -12,7 +12,7 @@ using TheVoid.TheVoidCode.Powers.OnDeathTriggerPowers;
 namespace TheVoid.TheVoidCode.Cards.Rare;
 
 [Pool(typeof(TheVoidCardPool))]
-public sealed class VoidAscendant() : TheVoidCard(3, CardType.Power, CardRarity.Rare, TargetType.AllEnemies)
+public sealed class VoidAscendant() : TheVoidCard(3, CardType.Power, CardRarity.Rare, TargetType.Self)
 {
     protected override IEnumerable<IHoverTip> ExtraHoverTips => 
     [
