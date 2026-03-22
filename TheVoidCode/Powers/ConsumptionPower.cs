@@ -13,21 +13,6 @@ public sealed class ConsumptionPower : TheVoidPower
     public const string Name = nameof(ConsumptionPower);
     public override PowerType Type => PowerType.Debuff;
     public override PowerStackType StackType => PowerStackType.Counter;
-    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<VoidClaimedPower>()];
-
-    public override async Task AfterApplied(Creature? applier, CardModel? cardSource)
-    {
-        await PowerCmd.Apply<VoidClaimedPower>(Owner, 1, applier, null);
-    }
-
-    public override Task BeforeApplied(Creature target, decimal amount, Creature? applier, CardModel? cardSource)
-    {
-        if (target.HasPower<VoidClaimedPower>() && Amount > 1)
-        {
-            return Task.CompletedTask;
-        }
-        return base.BeforeApplied(target, amount, applier, cardSource);
-    }
 
     public override async Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
     {
