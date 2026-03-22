@@ -4,9 +4,9 @@
     "THEVOID-DEFEND_THE_VOID.description": "Gain {Block:diff()} [gold]Block[/gold]",
     "THEVOID-DEFEND_THE_VOID.title": "Defend",
 
-    "THEVOID-HOLLOW_STRIKE.description": "Deal {Damage:diff()} damage. Apply [blue]{OnDeathDrawPower:diff()}[/blue] [gold]Last Gasp[/gold].",
+    "THEVOID-HOLLOW_STRIKE.description": "Deal {Damage:diff()} damage. Apply [blue]{LastGaspPower:diff()}[/blue] [gold]Last Gasp[/gold].",
     "THEVOID-HOLLOW_STRIKE.title": "Hollow Strike",
-    "THEVOID-VOID_SLASH.description": "Deal {Damage:diff()} damage. Apply [blue]{OnDeathGainEnergyPower:diff()}[/blue] [gold]Void Pulse[/gold]",
+    "THEVOID-VOID_SLASH.description": "Deal {Damage:diff()} damage. Apply [blue]{VoidPulsePower:diff()}[/blue] [gold]Void Pulse[/gold]",
     "THEVOID-VOID_SLASH.title": "Void Slash",
     "THEVOID-BLIND_SIDE.description": "Deal {Damage:diff()} damage. Apply [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold]",
     "THEVOID-BLIND_SIDE.title": "Blind Side",
@@ -35,9 +35,11 @@
 
     "THEVOID-DEVOUR.description": "Deal {Damage:diff()} damage. If enemy is below {TargetSelected:{InstantDeath:diff()}|{InstantDeath:diff()}%} HP, kill instantly instead. Heal {Heal:diff()} HP.",
     "THEVOID-DEVOUR.title": "Devour",
+    "THEVOID-BLOOD_RITE.description": "Whenever you lose HP, gain {Energy:diff()} [gold]Energy[/gold]{IsUpgraded}.",
+    "THEVOID-BLOOD_RITE.title": "Blood Rite",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse",
-    "THEVOID-BLOOD_RITE.description": "Whenever you lose HP, gain {Energy:diff()} [gold]Energy[/gold]{IsUpgraded}.",
-    "THEVOID-BLOOD_RITE.title": "Blood Rite"
+    "THEVOID-VOID_ASCENDANT.description": "At the start of each turn, apply [blue]{VoidMendPower:diff()}[/blue] [gold]Last Gasp[/gold] to ALL enemies. Gain [blue]{Block:diff()}[/blue] [gold]Block[/gold] for every [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] stacks on ALL enemies.",
+    "THEVOID-VOID_ASCENDANT.title": "Void Ascendant"
 }

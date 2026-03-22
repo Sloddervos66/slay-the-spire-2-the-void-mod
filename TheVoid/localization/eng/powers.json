@@ -33,5 +33,9 @@
 
     "THEVOID-BLOOD_RITE_UPGRADED_POWER.description": "Whenever you lose HP, gain 1 [gold]Energy[/gold] and draw 1 card.",
     "THEVOID-BLOOD_RITE_UPGRADED_POWER.smartDescription": "Whenever you lose HP, gain [blue]1[/blue] [gold]Energy[/gold] and draw [blue]{Amount}[/blue] {Amount:plural:card|cards}.",
-    "THEVOID-BLOOD_RITE_UPGRADED_POWER.title": "Blood Rite"
+    "THEVOID-BLOOD_RITE_UPGRADED_POWER.title": "Blood Rite",
+
+    "THEVOID-VOID_ASCENDANT_POWER.description": "At the start of each turn, apply 1 [gold]Void Mend[/gold] to ALL enemies. Gain 1 [gold]Block[/gold] for every 5 [gold]Blind[/gold] stacks on ALL enemies.",
+    "THEVOID-VOID_ASCENDANT_POWER.smartDescription": "At the start of each turn, apply [blue]{Amount}[/blue] [gold]Void Mend[/gold] to ALL enemies. Gain {Amount} [gold]Block[/gold] for every 5 [gold]Blind[/gold] stacks on ALL enemies.",
+    "THEVOID-VOID_ASCENDANT_POWER.title": "Void Ascendant"
 }

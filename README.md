@@ -123,10 +123,10 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ### Powers (2)
 
-| Card               | Cost | Description                                                     | Upgrade                  | Completed |
-|--------------------|------|-----------------------------------------------------------------|--------------------------|-----------|
-| **Void Ascendant** | 3    | At the start of each turn, apply 1 Last Gasp to ALL enemies.    | Also apply 1 Void Pulse. | N         |
-| **Abyssal Gaze**   | 2    | Whenever an enemy dies, apply 3 Blind to all remaining enemies. | Apply 4 Blind.           | N         |
+| Card               | Cost | Description                                                                                                        | Upgrade        | Completed |
+|--------------------|------|--------------------------------------------------------------------------------------------------------------------|----------------|-----------|
+| **Void Ascendant** | 3    | At the start of each turn, apply 1 Void Mend to ALL enemies. Gain 1 block for every 5 Blind stacks on ALL enemies. | Gain 2 Block.  | Y         |
+| **Abyssal Gaze**   | 2    | Whenever an enemy dies, apply 3 Blind to all remaining enemies.                                                    | Apply 4 Blind. | N         |
 
 ---
 
