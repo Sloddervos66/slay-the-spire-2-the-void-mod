@@ -17,16 +17,16 @@ public sealed class ConsumingBlow() : TheVoidCard(2, CardType.Attack, CardRarity
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new DamageVar(5m, ValueProp.Move),
-        new PowerVar<OnDeathDrawPower>(0m)
+        new PowerVar<LastGaspPower>(0m)
     ];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => IsUpgraded
-        ? [HoverTipFactory.FromPower<OnDeathDrawPower>()]
+        ? [HoverTipFactory.FromPower<LastGaspPower>()]
         : [];
 
     protected override void AddExtraArgsToDescription(LocString description)
     {
-        description.Add("IsUpgraded", IsUpgraded ? $" Apply [blue]{DynamicVars[OnDeathDrawPower.Name].BaseValue}[/blue] [gold]Last Gasp[/gold]." : "");
+        description.Add("IsUpgraded", IsUpgraded ? $" Apply [blue]{DynamicVars[LastGaspPower.Name].BaseValue}[/blue] [gold]Last Gasp[/gold]." : "");
     }
     
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
@@ -41,13 +41,13 @@ public sealed class ConsumingBlow() : TheVoidCard(2, CardType.Attack, CardRarity
 
         if (IsUpgraded)
         {
-            await PowerCmd.Apply<OnDeathDrawPower>(target, DynamicVars[OnDeathDrawPower.Name].BaseValue, Owner.Creature, this);
+            await PowerCmd.Apply<LastGaspPower>(target, DynamicVars[LastGaspPower.Name].BaseValue, Owner.Creature, this);
         }
     }
 
     protected override void OnUpgrade()
     {
         DynamicVars.Damage.UpgradeValueBy(1m);
-        DynamicVars[OnDeathDrawPower.Name].UpgradeValueBy(1m);
+        DynamicVars[LastGaspPower.Name].UpgradeValueBy(1m);
     }
 }

@@ -3,9 +3,9 @@ using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 
 namespace TheVoid.TheVoidCode.Powers.OnDeathTriggerPowers;
 
-public sealed class OnDeathHealPower : OnDeathTriggerPower
+public sealed class VoidMendPower : OnDeathTriggerPower
 {
-    public const string Name = nameof(OnDeathHealPower);
+    public const string Name = nameof(VoidMendPower);
     
     protected override async Task TriggerEffect(PlayerChoiceContext choiceContext)
     {

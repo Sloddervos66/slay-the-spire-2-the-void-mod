@@ -3,15 +3,15 @@ using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 
 namespace TheVoid.TheVoidCode.Powers.OnDeathTriggerPowers;
 
-public sealed class OnDeathDrawPower : OnDeathTriggerPower
+public sealed class VoidPulsePower : OnDeathTriggerPower
 {
-    public const string Name = nameof(OnDeathDrawPower);
+    public const string Name = nameof(VoidPulsePower);
     
     protected override async Task TriggerEffect(PlayerChoiceContext choiceContext)
     {
         var player = Applier?.Player;
         if (player == null) return;
         
-        await CardPileCmd.Draw(choiceContext, Amount, player);
+        await PlayerCmd.GainEnergy(Amount, player);
     }
 }

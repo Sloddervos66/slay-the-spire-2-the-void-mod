@@ -3,9 +3,9 @@ using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 
 namespace TheVoid.TheVoidCode.Powers.OnDeathTriggerPowers;
 
-public sealed class OnDeathApplyBlindPower : OnDeathTriggerPower
+public sealed class VoidFlashPower : OnDeathTriggerPower
 {
-    public const string Name = nameof(OnDeathApplyBlindPower);
+    public const string Name = nameof(VoidFlashPower);
     protected override async Task TriggerEffect(PlayerChoiceContext choiceContext)
     {
         var player = Applier?.Player?.Creature;

@@ -11,13 +11,8 @@ public abstract class OnDeathTriggerPower : TheVoidPower
 
     public override async Task AfterDeath(PlayerChoiceContext choiceContext, Creature creature, bool wasRemovalPrevented, float deathAnimLength)
     {
-        if (creature == Owner)
-        {
-            for (var i = 0; i < Amount; i++)
-            {
-                await TriggerEffect(choiceContext);
-            }
-        }
+        if (creature != Owner) return;
+        await TriggerEffect(choiceContext);
     }
     
     protected abstract Task TriggerEffect(PlayerChoiceContext choiceContext);
