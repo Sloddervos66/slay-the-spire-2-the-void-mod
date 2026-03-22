@@ -9,4 +9,9 @@ public static class CreatureExtensions
     {
         return creature.GetPower<BlindPower>() is { Amount: > 0 };
     }
+
+    public static int GetHpThreshold(this Creature creature, decimal percentage)
+    {
+        return (int)Math.Floor(creature.MaxHp * (double)percentage / 100.0);
+    }
 }
