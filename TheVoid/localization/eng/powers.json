@@ -41,5 +41,13 @@
 
     "THEVOID-ABYSSAL_GAZE_POWER.description": "Whenever an enemy dies, apply [blue]3[/blue] [gold]Blind[/gold] to all remaining enemies.",
     "THEVOID-ABYSSAL_GAZE_POWER.smartDescription": "Whenever an enemy dies, apply [blue]{Amount}[/blue] [gold]Blind[/gold] to all remaining enemies.",
-    "THEVOID-ABYSSAL_GAZE_POWER.title": "Abyssal Gaze"
+    "THEVOID-ABYSSAL_GAZE_POWER.title": "Abyssal Gaze",
+
+    "THEVOID-CONSUMPTION_POWER.description": "Whenever [gold]Consumption[/gold] reaches [blue]0[/blue], die. Each turn [gold]Consumption[/gold] is decreased by [blue]1[/blue]. Apply [gold]Void Claimed[/gold].",
+    "THEVOID-CONSUMPTION_POWER.smartDescription": "Whenever [blue]{Amount}[/blue] [gold]Consumption[/gold] reaches [blue]0[/blue], die. Each turn [gold]Consumption[/gold] is decreased by [blue]1[/blue]. Afflict [gold]Void Claimed[/gold].",
+    "THEVOID-CONSUMPTION_POWER.title": "Consumption",
+
+    "THEVOID-VOID_CLAIMED_POWER.description": "Cannot gain [gold]Consumption[/gold].",
+    "THEVOID-VOID_CLAIMED_POWER.smartDescription": "Cannot gain [gold]Consumption[/gold]",
+    "THEVOID-VOID_CLAIMED_POWER.title": "Void Claimed"
 }
