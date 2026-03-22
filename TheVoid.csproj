@@ -103,6 +103,7 @@
 
     <ItemGroup>
         <Folder Include="TheVoidCode\Cards\Ancient\" />
+        <Folder Include="TheVoidCode\Localization\" />
         <Folder Include="TheVoidCode\Relics\Ancient\" />
         <Folder Include="TheVoidCode\Relics\Starter\" />
         <Folder Include="TheVoidCode\Relics\Common\" />
