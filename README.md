@@ -126,7 +126,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | Card               | Cost | Description                                                                                                        | Upgrade        | Completed |
 |--------------------|------|--------------------------------------------------------------------------------------------------------------------|----------------|-----------|
 | **Void Ascendant** | 3    | At the start of each turn, apply 1 Void Mend to ALL enemies. Gain 1 block for every 5 Blind stacks on ALL enemies. | Gain 2 Block.  | Y         |
-| **Abyssal Gaze**   | 2    | Whenever an enemy dies, apply 3 Blind to all remaining enemies.                                                    | Apply 4 Blind. | N         |
+| **Abyssal Gaze**   | 2    | Whenever an enemy dies, apply 3 Blind to all remaining enemies.                                                    | Apply 4 Blind. | Y         |
 
 ---
 

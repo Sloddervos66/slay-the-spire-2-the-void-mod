@@ -37,5 +37,9 @@
 
     "THEVOID-VOID_ASCENDANT_POWER.description": "At the start of each turn, apply 1 [gold]Void Mend[/gold] to ALL enemies. Gain 1 [gold]Block[/gold] for every 5 [gold]Blind[/gold] stacks on ALL enemies.",
     "THEVOID-VOID_ASCENDANT_POWER.smartDescription": "At the start of each turn, apply [blue]{Amount}[/blue] [gold]Void Mend[/gold] to ALL enemies. Gain {Amount} [gold]Block[/gold] for every 5 [gold]Blind[/gold] stacks on ALL enemies.",
-    "THEVOID-VOID_ASCENDANT_POWER.title": "Void Ascendant"
+    "THEVOID-VOID_ASCENDANT_POWER.title": "Void Ascendant",
+
+    "THEVOID-ABYSSAL_GAZE_POWER.description": "Whenever an enemy dies, apply [blue]3[/blue] [gold]Blind[/gold] to all remaining enemies.",
+    "THEVOID-ABYSSAL_GAZE_POWER.smartDescription": "Whenever an enemy dies, apply [blue]{Amount}[/blue] [gold]Blind[/gold] to all remaining enemies.",
+    "THEVOID-ABYSSAL_GAZE_POWER.title": "Abyssal Gaze"
 }

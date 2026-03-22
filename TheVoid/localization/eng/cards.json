@@ -41,5 +41,7 @@
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse",
     "THEVOID-VOID_ASCENDANT.description": "At the start of each turn, apply [blue]{VoidMendPower:diff()}[/blue] [gold]Last Gasp[/gold] to ALL enemies. Gain [blue]{Block:diff()}[/blue] [gold]Block[/gold] for every [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] stacks on ALL enemies.",
-    "THEVOID-VOID_ASCENDANT.title": "Void Ascendant"
+    "THEVOID-VOID_ASCENDANT.title": "Void Ascendant",
+    "THEVOID-ABYSSAL_GAZE.description": "Whenever an enemy dies, apply [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] to all remaining enemies.",
+    "THEVOID-ABYSSAL_GAZE.title": "Abyssal Gaze"
 }
