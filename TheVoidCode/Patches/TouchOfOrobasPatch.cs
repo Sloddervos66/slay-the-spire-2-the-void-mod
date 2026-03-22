@@ -6,7 +6,7 @@ using TheVoid.TheVoidCode.Relics.Starter;
 namespace TheVoid.TheVoidCode.Patches;
 
 [HarmonyPatch(typeof(TouchOfOrobas), nameof(TouchOfOrobas.GetUpgradedStarterRelic))]
-public static class PatchTouchOfOrobas
+public static class TouchOfOrobasPatch
 {
     public static void Postfix(RelicModel starterRelic, ref RelicModel __result)
     {
