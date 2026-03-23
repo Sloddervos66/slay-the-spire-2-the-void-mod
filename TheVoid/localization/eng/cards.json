@@ -37,14 +37,13 @@
     "THEVOID-DEVOUR.title": "Devour",
     "THEVOID-BLOOD_RITE.description": "Whenever you lose HP, gain {Energy:diff()} [gold]Energy[/gold]{IsUpgraded}.",
     "THEVOID-BLOOD_RITE.title": "Blood Rite",
+    "THEVOID-ECLIPSE_STRIKE.description": "Deal {Damage:diff()} damage. Apply [blue]{VoidFlashPower:diff()}[/blue] [gold]Void Flash[/gold].",
+    "THEVOID-ECLIPSE_STRIKE.title": "Eclipse Strike",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse",
     "THEVOID-VOID_ASCENDANT.description": "At the start of each turn, apply [blue]{VoidMendPower:diff()}[/blue] [gold]Last Gasp[/gold] to ALL enemies. Gain [blue]{Block:diff()}[/blue] [gold]Block[/gold] for every [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] stacks on ALL enemies.",
     "THEVOID-VOID_ASCENDANT.title": "Void Ascendant",
     "THEVOID-ABYSSAL_GAZE.description": "Whenever an enemy dies, apply [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] to all remaining enemies.",
-    "THEVOID-ABYSSAL_GAZE.title": "Abyssal Gaze",
-    
-    "THEVOID-CONSUME_TEST.description": "Apply [blue]{ConsumptionPower:diff()}[/blue] [gold]Consumption[/gold].",
-    "THEVOID-CONSUME_TEST.title": "Consume Test"
+    "THEVOID-ABYSSAL_GAZE.title": "Abyssal Gaze"
 }

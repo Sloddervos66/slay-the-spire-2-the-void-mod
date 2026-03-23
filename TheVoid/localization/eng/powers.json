@@ -16,7 +16,7 @@
     "THEVOID-VOID_MEND_POWER.title": "Void Mend",
     
     "THEVOID-VOID_FLASH_POWER.description": "On death, apply [gold]X Blind[/gold], where X is the number of [gold]Void Flash[/gold] stacks.",
-    "THEVOID-VOID_FLASH_POWER.smartDescription": "On death, apply [blue]{Amount}{/blue] [gold]Blind[/gold]",
+    "THEVOID-VOID_FLASH_POWER.smartDescription": "On death, apply [blue]{Amount}[/blue] [gold]Blind[/gold].",
     "THEVOID-VOID_FLASH_POWER.title": "Void Flash",
 
     "THEVOID-FADE_POWER.description": "At the start of each turn gain [blue]1[/blue] [gold]Energy[/gold] and apply [gold]X Blind[/gold] to yourself, where X is the number of [gold]Fade[/gold] stacks.",
