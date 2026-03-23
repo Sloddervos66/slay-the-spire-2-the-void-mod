@@ -91,11 +91,11 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 | Card              | Cost | Description                                                                  | Upgrade                                               | Completed |
 |-------------------|------|------------------------------------------------------------------------------|-------------------------------------------------------|-----------|
-| **Void Offering** | 1    | Exhaust a card in your hand. Draw 2 cards.                                   | Draw 3 cards.                                         | N         |
-| **Void Pact**     | 0    | Lose HP equal to 25% of your max HP. Gain 3 energy. Exhaust.                 | Lose 20% instead.                                     | N         |
+| **Void Offering** | 1    | Exhaust a card in your hand. Apply 3 Void Mend.                              | Apply 5 Void Mend.                                    | N         |
+| **Void Pact**     | 0    | Lose HP equal to 15% of your max HP. Gain 1 energy. Exhaust.                 | Lose 20% instead, Gain 2 Energy. Ethereal.            | N         |
 | **Null Step**     | 1    | Gain 8 Block. Gain 4 additional Block for every 5 Blind stacks on the enemy. | Gain 10 Block. Gain 4 extra Block for every 3 stacks. | N         |
 | **Black Mirror**  | 1    | Apply Blind equal to your current Blind stacks to a target enemy.            | Innate.                                               | N         |
-| **Null Ritual**   | 2    | Lose 6 HP. Apply 4 Blind to ALL enemies. Draw 2 cards.                       | Lose 5 HP.                                            | N         |
+| **Null Ritual**   | 2    | Lose 7 HP. Apply 3 Blind to ALL enemies.                                     | Lose 5 HP.                                            | N         |
 
 ### Powers (1)
 
@@ -118,7 +118,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 | Card                     | Cost | Description                                                                         | Upgrade       | Completed |
 |--------------------------|------|-------------------------------------------------------------------------------------|---------------|-----------|
-| **The Void Stares Back** | 2    | Lose HP equal to 40% of your max HP. Deal damage equal to HP lost times 3. Exhaust. | Times 4.      | N         |
+| **The Void Stares Back** | 4    | Lose HP equal to 40% of your max HP. Deal damage equal to HP lost times 3. Exhaust. | Times 4.      | N         |
 | **Unending Hunger**      | 0    | Whenever an enemy dies this turn, draw 2 cards. Exhaust.                            | Draw 3 cards. | N         |
 
 ### Powers (2)
