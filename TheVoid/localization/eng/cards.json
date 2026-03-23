@@ -41,6 +41,8 @@
     "THEVOID-ECLIPSE_STRIKE.title": "Eclipse Strike",
     "THEVOID-HEMORRHAGE.description": "Lose {HpLoss:diff()} HP. Deal {Damage:diff()} damage.",
     "THEVOID-HEMORRHAGE.title": "Hemorrhage",
+    "THEVOID-BLIND_FURY.description": "Deal {BlindFury:diff()} damage. Deal an additional {AdditionalDamage:diff()} damage per [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] stacks applied to yourself.",
+    "THEVOID-BLIND_FURY.title": "Blind Fury",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse",
