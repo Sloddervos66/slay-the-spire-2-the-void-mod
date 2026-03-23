@@ -43,6 +43,8 @@
     "THEVOID-HEMORRHAGE.title": "Hemorrhage",
     "THEVOID-BLIND_FURY.description": "Deal {BlindFury:diff()} damage. Deal an additional {AdditionalDamage:diff()} damage per [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] stacks applied to yourself.",
     "THEVOID-BLIND_FURY.title": "Blind Fury",
+    "THEVOID-VOID_OFFERING.description": "[gold]Exhaust[/gold] a card in your hand. Apply [blue]{VoidMendPower:diff()}[/blue] [gold]Void Mend[/gold].",
+    "THEVOID-VOID_OFFERING.title": "Void Offering",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse",
