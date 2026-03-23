@@ -29,6 +29,5 @@ public sealed class VoidShroud() : TheVoidCard(1, CardType.Skill, CardRarity.Com
     protected override void OnUpgrade()
     {
         DynamicVars.Block.UpgradeValueBy(3m);
-        DynamicVars[BlindPower.Name].UpgradeValueBy(1m);
     }
 }
