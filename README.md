@@ -85,7 +85,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | **Devour**         | 2    | Deal 10 damage. If target is below 10% of max HP kill instantly instead. Heal 10 HP. | Deal 13 damage. Kill instantly 13%. Heal 13 HP.       | Y         |
 | **Eclipse Strike** | 1    | Deal 7 damage. Apply 1 Void Flash.                                                   | Deal 10 damage.                                       | Y         |
 | **Hemorrhage**     | 2    | Lose 5 HP. Deal 18 damage.                                                           | Lose 7 HP. Deal 23 damage.                            | Y         |
-| **Blind Fury**     | 2    | Deal 5 damage. Deal an additional 2 damage per 3 Blind stacks applied to yourself.   | Deal 7 damage.                                        | N         |
+| **Blind Fury**     | 2    | Deal 5 damage. Deal an additional 2 damage per 3 Blind stacks applied to yourself.   | Deal 7 damage.                                        | Y         |
 
 ### Skills (5)
 
