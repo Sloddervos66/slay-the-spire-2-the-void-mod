@@ -78,24 +78,24 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ## Uncommon (10)
 
-### Attacks (5)
+### Attacks (4)
 
 | Card               | Cost | Description                                                                          | Upgrade                                               | Completed |
 |--------------------|------|--------------------------------------------------------------------------------------|-------------------------------------------------------|-----------|
 | **Devour**         | 2    | Deal 10 damage. If target is below 10% of max HP kill instantly instead. Heal 10 HP. | Deal 13 damage. Kill instantly 13%. Heal 13 HP.       | Y         |
-| **Eclipse Strike** | 1    | Deal 7 damage. Apply 1 Void Flash.                                                   | Deal 10 damage.                                       | N         |
-| **Null Step**      | 1    | Gain 8 Block. Gain 4 additional Block for every 5 Blind stacks on the enemy.         | Gain 10 Block. Gain 4 extra Block for every 3 stacks. | N         |
-| **Hemorrhage**     | 2    | Lose 5 HP. Deal 18 damage.                                                           | Lose 7 HP. Deal 23 damage.                            | N         |
+| **Eclipse Strike** | 1    | Deal 7 damage. Apply 1 Void Flash.                                                   | Deal 10 damage.                                       | Y         |
+| **Hemorrhage**     | 2    | Lose 5 HP. Deal 18 damage.                                                           | Lose 7 HP. Deal 23 damage.                            | Y         |
 | **Blind Fury**     | 2    | Deal 5 damage. Deal an additional 2 damage per 3 Blind stacks applied to yourself.   | Deal 7 damage.                                        | N         |
 
-### Skills (4)
+### Skills (5)
 
-| Card              | Cost | Description                                                       | Upgrade           | Completed |
-|-------------------|------|-------------------------------------------------------------------|-------------------|-----------|
-| **Void Offering** | 1    | Exhaust a card in your hand. Draw 2 cards.                        | Draw 3 cards.     | N         |
-| **Void Pact**     | 0    | Lose HP equal to 25% of your max HP. Gain 3 energy. Exhaust.      | Lose 20% instead. | N         |
-| **Black Mirror**  | 1    | Apply Blind equal to your current Blind stacks to a target enemy. | Innate.           | N         |
-| **Null Ritual**   | 2    | Lose 6 HP. Apply 4 Blind to ALL enemies. Draw 2 cards.            | Lose 5 HP.        | N         |
+| Card              | Cost | Description                                                                  | Upgrade                                               | Completed |
+|-------------------|------|------------------------------------------------------------------------------|-------------------------------------------------------|-----------|
+| **Void Offering** | 1    | Exhaust a card in your hand. Draw 2 cards.                                   | Draw 3 cards.                                         | N         |
+| **Void Pact**     | 0    | Lose HP equal to 25% of your max HP. Gain 3 energy. Exhaust.                 | Lose 20% instead.                                     | N         |
+| **Null Step**     | 1    | Gain 8 Block. Gain 4 additional Block for every 5 Blind stacks on the enemy. | Gain 10 Block. Gain 4 extra Block for every 3 stacks. | N         |
+| **Black Mirror**  | 1    | Apply Blind equal to your current Blind stacks to a target enemy.            | Innate.                                               | N         |
+| **Null Ritual**   | 2    | Lose 6 HP. Apply 4 Blind to ALL enemies. Draw 2 cards.                       | Lose 5 HP.                                            | N         |
 
 ### Powers (1)
 

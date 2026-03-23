@@ -39,6 +39,8 @@
     "THEVOID-BLOOD_RITE.title": "Blood Rite",
     "THEVOID-ECLIPSE_STRIKE.description": "Deal {Damage:diff()} damage. Apply [blue]{VoidFlashPower:diff()}[/blue] [gold]Void Flash[/gold].",
     "THEVOID-ECLIPSE_STRIKE.title": "Eclipse Strike",
+    "THEVOID-HEMORRHAGE.description": "Lose {HpLoss:diff()} HP. Deal {Damage:diff()} damage.",
+    "THEVOID-HEMORRHAGE.title": "Hemorrhage",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse",
