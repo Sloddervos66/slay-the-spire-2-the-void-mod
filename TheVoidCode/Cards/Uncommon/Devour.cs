@@ -6,8 +6,8 @@ using MegaCrit.Sts2.Core.Localization;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.ValueProps;
 using TheVoid.TheVoidCode.Character;
-using TheVoid.TheVoidCode.DynamicVars;
 using TheVoid.TheVoidCode.Extensions;
+using TheVoid.TheVoidCode.Localization.DynamicVars;
 
 namespace TheVoid.TheVoidCode.Cards.Uncommon;
 

@@ -4,7 +4,7 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using TheVoid.TheVoidCode.Extensions;
 
-namespace TheVoid.TheVoidCode.DynamicVars;
+namespace TheVoid.TheVoidCode.Localization.DynamicVars;
 
 public class InstantDeathVar(decimal baseValue) : DynamicVar(Name, baseValue)
 {
