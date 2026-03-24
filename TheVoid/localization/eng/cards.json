@@ -45,10 +45,12 @@
     "THEVOID-BLIND_FURY.title": "Blind Fury",
     "THEVOID-VOID_OFFERING.description": "[gold]Exhaust[/gold] a card in your hand. Apply [blue]{VoidMendPower:diff()}[/blue] [gold]Void Mend[/gold].",
     "THEVOID-VOID_OFFERING.title": "Void Offering",
+    "THEVOID-VOID_PACT.description": "Lose HP equal to {TargetSelected:{VoidPact:diff()}|{VoidPact:diff()}%} HP. Gain {Energy:diff()} [gold]Energy[/gold].",
+    "THEVOID-VOID_PACT.title": "Void Pact",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse",
-    "THEVOID-VOID_ASCENDANT.description": "At the start of each turn, apply [blue]{VoidMendPower:diff()}[/blue] [gold]Last Gasp[/gold] to ALL enemies. Gain [blue]{Block:diff()}[/blue] [gold]Block[/gold] for every [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] stacks on ALL enemies.",
+    "THEVOID-VOID_ASCENDANT.description": "At the start of each turn, apply [blue]{VoidMendPower:diff()}[/blue] [gold]Void Mend[/gold] to ALL enemies. Gain [blue]{Block:diff()}[/blue] [gold]Block[/gold] for every [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] stacks on ALL enemies.",
     "THEVOID-VOID_ASCENDANT.title": "Void Ascendant",
     "THEVOID-ABYSSAL_GAZE.description": "Whenever an enemy dies, apply [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] to all remaining enemies.",
     "THEVOID-ABYSSAL_GAZE.title": "Abyssal Gaze"

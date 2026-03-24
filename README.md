@@ -59,13 +59,13 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ### Skills (4)
 
-| Card            | Cost | Description                                       | Upgrade                       | Completed |
-|-----------------|------|---------------------------------------------------|-------------------------------|-----------|
-| **Unravel**     | 0    | Lose 4 HP. Draw 3 cards.                          | Lose 3 HP.                    | Y         |
-| **Darken**      | 1    | Apply 2 Blind to ALL enemies. Exhaust.            | Apply 3 Blind.                | Y         |
-| **Void Shroud** | 1    | Gain 7 Block. Apply 1 Blind to yourself.          | Gain 10 Block. Apply 2 Blind. | Y         |
-| **Wither**      | 2    | Apply 2 Blind to an enemy. Draw 1 card. Ethereal. | Apply 1 Blind. Draw 2 cards.  | Y         |
-| **Dark Touch**  | 1    | Draw 2 cards if you have Blind.                   | Draw 3 cards.                 | Y         |
+| Card            | Cost | Description                                       | Upgrade                      | Completed |
+|-----------------|------|---------------------------------------------------|------------------------------|-----------|
+| **Unravel**     | 0    | Lose 4 HP. Draw 3 cards.                          | Lose 3 HP.                   | Y         |
+| **Darken**      | 1    | Apply 2 Blind to ALL enemies. Exhaust.            | Apply 3 Blind.               | Y         |
+| **Void Shroud** | 1    | Gain 7 Block. Apply 1 Blind to yourself.          | Gain 10 Block.               | Y         |
+| **Wither**      | 2    | Apply 2 Blind to an enemy. Draw 1 card. Ethereal. | Apply 1 Blind. Draw 2 cards. | Y         |
+| **Dark Touch**  | 1    | Draw 2 cards if you have Blind.                   | Draw 3 cards.                | Y         |
 
 ### Powers (2)
 
@@ -91,8 +91,8 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 | Card              | Cost | Description                                                                  | Upgrade                                               | Completed |
 |-------------------|------|------------------------------------------------------------------------------|-------------------------------------------------------|-----------|
-| **Void Offering** | 1    | Exhaust a card in your hand. Apply 3 Void Mend.                              | Apply 5 Void Mend.                                    | N         |
-| **Void Pact**     | 0    | Lose HP equal to 15% of your max HP. Gain 1 energy. Exhaust.                 | Lose 20% instead, Gain 2 Energy. Ethereal.            | N         |
+| **Void Offering** | 1    | Exhaust a card in your hand. Apply 3 Void Mend.                              | Apply 5 Void Mend.                                    | Y         |
+| **Void Pact**     | 0    | Lose HP equal to 15% of your max HP. Gain 1 energy. Exhaust.                 | Gain 2 Energy. Ethereal.                              | N         |
 | **Null Step**     | 1    | Gain 8 Block. Gain 4 additional Block for every 5 Blind stacks on the enemy. | Gain 10 Block. Gain 4 extra Block for every 3 stacks. | N         |
 | **Black Mirror**  | 1    | Apply Blind equal to your current Blind stacks to a target enemy.            | Innate.                                               | N         |
 | **Null Ritual**   | 2    | Lose 7 HP. Apply 3 Blind to ALL enemies.                                     | Lose 5 HP.                                            | N         |
