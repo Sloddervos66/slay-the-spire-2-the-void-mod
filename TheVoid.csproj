@@ -133,7 +133,7 @@
                 Condition="'$(GodotPath)' == '' or !Exists('$(GodotPath)')"/>
     </Target>
 
-    <Target Name="CopyToModsFolderOnBuild" AfterTargets="PostBuildEvent">
+    <Target Name="CopyToModsFolderOnBuild" AfterTargets="PostBuildEvent" Condition="'$(CI)' != 'true'">
         <Message Text="Copying .dll and manifest to mods folder." Importance="high"/>
         <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModsPath)$(MSBuildProjectName)/"/>
         <Copy SourceFiles="TheVoid.json" DestinationFolder="$(ModsPath)$(MSBuildProjectName)/"/>
