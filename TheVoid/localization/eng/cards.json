@@ -51,6 +51,8 @@
     "THEVOID-NULL_STEP.title": "Null Step",
     "THEVOID-BLACK_MIRROR.description": "Apply [gold]Blind[/gold] equal to your [gold]Blind[/gold] stacks on the target.",
     "THEVOID-BLACK_MIRROR.title": "Black Mirror",
+    "THEVOID-NULL_RITUAL.description": "Lose {HpLoss:diff()} HP. Apply {BlindPower:diff()} [gold]Blind[/gold] to ALL enemies.",
+    "THEVOID-NULL_RITUAL.title": "Null Ritual",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse",
