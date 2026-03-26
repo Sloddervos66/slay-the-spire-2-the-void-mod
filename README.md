@@ -109,11 +109,11 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ### Attacks (1)
 
-| Card                      | Cost | Description                                                                          | Upgrade             | Completed |
-|---------------------------|------|--------------------------------------------------------------------------------------|---------------------|-----------|
-| **Event Horizon**         | 3    | Deal 18 damage to ALL enemies. If any enemy dies, gain 2 energy and draw 2 cards.    | Deal 23 damage.     | Y         |
-| **Void Execution**        | 2    | Deal 20 damage. If the enemy dies, gain 3 energy. Exhaust.                           | No longer Exhausts. | Y         |
-| **The Void Stares Back**  | 4    | Lose HP equal to 40% of your max HP. Deal damage equal to HP lost times 3. Exhaust.  | Times 4.            | N         |
+| Card                      | Cost | Description                                                                       | Upgrade             | Completed |
+|---------------------------|------|-----------------------------------------------------------------------------------|---------------------|-----------|
+| **Event Horizon**         | 3    | Deal 18 damage to ALL enemies. If any enemy dies, gain 2 energy and draw 2 cards. | Deal 23 damage.     | Y         |
+| **Void Execution**        | 2    | Deal 20 damage. If the enemy dies, gain 3 energy. Exhaust.                        | No longer Exhausts. | Y         |
+| **The Void Stares Back**  | 4    | Lose HP equal to 40% of your current HP. Deal damage equal to HP lost times 3.    | Times 4.            | Y         |
 
 ### Skills (1)
 
