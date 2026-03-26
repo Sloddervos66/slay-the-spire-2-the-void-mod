@@ -26,8 +26,8 @@ public class BlindFuryDamageVar(decimal baseValue) : DynamicVar(Name, baseValue)
         Creature? target, 
         bool runGlobalHooks)
     {
-        var owner = card.Owner?.Creature;
-        if (owner != null && owner.HasBlind())
+        var owner = card.Owner.Creature;
+        if (owner.HasBlind())
         {
             var blindStacks = owner.GetPowerAmount<BlindPower>();
             var bonus = _additionalDamagePerStack * (blindStacks / _stacksPerBonus);
@@ -37,7 +37,5 @@ public class BlindFuryDamageVar(decimal baseValue) : DynamicVar(Name, baseValue)
         {
             PreviewValue = BaseValue;
         }
-        
-        base.UpdateCardPreview(card, previewMode, target, runGlobalHooks);
     }
 }
