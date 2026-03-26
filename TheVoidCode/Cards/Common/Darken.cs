@@ -21,12 +21,8 @@ public sealed class Darken() : TheVoidCard(2, CardType.Skill, CardRarity.Common,
         var enemies = Owner.Creature.CombatState?.Enemies
             .Where(e => e.IsAlive)
             .ToList();
-        if (enemies is not { Count: 0 }) return;
-        
-        foreach (var e in enemies)
-        {
-            await PowerCmd.Apply<BlindPower>(e, DynamicVars[BlindPower.Name].BaseValue, Owner.Creature, this);
-        }
+        if (enemies is not { Count: > 0 }) return;
+        await PowerCmd.Apply<BlindPower>(enemies, DynamicVars[BlindPower.Name].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
