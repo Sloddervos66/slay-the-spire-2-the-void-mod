@@ -20,6 +20,11 @@
         <IsLinux Condition="$([MSBuild]::IsOSPlatform('Linux'))">true</IsLinux>
         <IsOSX Condition="$([MSBuild]::IsOSPlatform('OSX'))">true</IsOSX>
     </PropertyGroup>
+    
+    <!-- Build for Github Workflow to upload to NexusMods -->
+    <PropertyGroup>
+        <DistPath>$(MSBuildProjectDirectory)/dist/$(MSBuildProjectName)</DistPath>
+    </PropertyGroup>
 
     <!-- // NOTE: Megadot is version 4.5.1, and the game won't load your .pck if the Godot version used is newer. -->
 
@@ -114,11 +119,12 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Content Include=".github\workflows\upload-mod.yml" />
       <Content Include="Directory.Build.props.local" />
       <Content Include="README.md" />
     </ItemGroup>
 
-    <Target Name="CheckDependencyPaths">
+    <Target Name="CheckDependencyPaths" Condition="'$(CI)' != 'true'">
         <Error
                 Text=" Slay the Spire 2 data not found at path '$(Sts2DataDir)'"
                 Condition="'$(Sts2DataDir)' == '' or !Exists('$(Sts2DataDir)')"/>
@@ -141,6 +147,24 @@
     <Target Name="GodotPublish" AfterTargets="Publish" Condition="'$(GodotPath)' != '' and Exists('$(GodotPath)') and '$(IsInnerGodotExport)' != 'true'">
         <Message Text="Exporting Godot .pck to mods folder" Importance="high"/>
         <Exec Command="&quot;$(GodotPath)&quot; --headless --export-pack &quot;BasicExport&quot; &quot;$(ModsPath)$(MSBuildProjectName)/$(MSBuildProjectName).pck&quot;"
+              EnvironmentVariables="IsInnerGodotExport=true;MSBUILDDISABLENODEREUSE=1"
+              ContinueOnError="WarnAndContinue"/>
+    </Target>
+
+    <Target Name="CreateDistPackage" AfterTargets="Publish">
+        <Message Text="Creating dist package for mod release." Importance="high"/>
+        
+        <RemoveDir Directories="$(DistPath)" Condition="Exists('$(DistPath)')"/>
+        <MakeDir Directories="$(DistPath)"/>
+
+        <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(DistPath)"/>
+        <Copy SourceFiles="TheVoid.json" DestinationFolder="$(DistPath)"/>
+    </Target>
+    
+    <Target Name="GodotPublishDist" AfterTargets="Publish" Condition="'$(GodotPath)' != '' and Exists('$(GodotPath)')">
+        <Message Text="Exporting Godot .pck to dist folder" Importance="high"/>
+
+        <Exec Command="&quot;$(GodotPath)&quot; --headless --export-pack &quot;BasicExport&quot; &quot;$(DistPath)/$(MSBuildProjectName).pck&quot;"
               EnvironmentVariables="IsInnerGodotExport=true;MSBUILDDISABLENODEREUSE=1"
               ContinueOnError="WarnAndContinue"/>
     </Target>
