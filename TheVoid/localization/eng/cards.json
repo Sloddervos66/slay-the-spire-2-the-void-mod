@@ -47,7 +47,7 @@
     "THEVOID-VOID_OFFERING.title": "Void Offering",
     "THEVOID-VOID_PACT.description": "Lose HP equal to {PercentDamage:diff()}% of your max HP. Gain {Energy:diff()} [gold]Energy[/gold].{InCombat:\n(Deals {CalculatedDamage:diff()} damage)|}",
     "THEVOID-VOID_PACT.title": "Void Pact",
-    "THEVOID-NULL_STEP.description": "Gain {Block:diff()} [gold]Block[/gold]. Gain {AdditionalBlock:diff()} [gold]Block[/gold] for every {BlindPower:diff()} [gold]Blind[/gold] stacks on the enemy.",
+    "THEVOID-NULL_STEP.description": "Gain {CalculatedBlock:diff()} [gold]Block[/gold]. Gain {AdditionalBlock:diff()} [gold]Block[/gold] for every {BlindPower:diff()} [gold]Blind[/gold] stacks on the enemy.",
     "THEVOID-NULL_STEP.title": "Null Step",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",

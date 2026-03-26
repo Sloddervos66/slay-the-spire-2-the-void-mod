@@ -19,10 +19,21 @@ public sealed class NullStep() : TheVoidCard(1, CardType.Skill, CardRarity.Uncom
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<BlindPower>()];
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new CalculationBaseVar(8m),
         new BlockVar(8m, ValueProp.Move),
         new(AdditionalBlock, 4m),
-        new PowerVar<BlindPower>(5m)
+        new PowerVar<BlindPower>(5m),
+        new CalculationBaseVar(8m),
+        new CalculationExtraVar(1m),
+        new CalculatedBlockVar(ValueProp.Move).WithMultiplier((card, target) =>
+        {
+            if (target == null) return 0m;
+            if (!target.HasBlind()) return 0m;
+
+            var blindAmount = target.GetPowerAmount<BlindPower>();
+            var multiplier = Math.Floor(blindAmount / card.DynamicVars[BlindPower.Name].BaseValue);
+            
+            return card.DynamicVars[AdditionalBlock].BaseValue * multiplier;
+        })
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
@@ -31,16 +42,7 @@ public sealed class NullStep() : TheVoidCard(1, CardType.Skill, CardRarity.Uncom
         var target = cardPlay.Target;
         if (target == null) return;
         
-        await CreatureCmd.GainBlock(Owner.Creature, DynamicVars.Block, cardPlay);
-        
-        if (target.HasBlind())
-        {
-            var blindAmount = target.GetPowerAmount<BlindPower>();
-            var multiplier = Math.Floor(blindAmount / DynamicVars[BlindPower.Name].BaseValue);
-            var additionalBlock = DynamicVars[AdditionalBlock].BaseValue * multiplier;
-            
-            await CreatureCmd.GainBlock(Owner.Creature, additionalBlock, ValueProp.Move, cardPlay);
-        }
+        await CreatureCmd.GainBlock(Owner.Creature, DynamicVars.CalculatedBlock.Calculate(target), ValueProp.Move, cardPlay);
     }
 
     protected override void OnUpgrade()
