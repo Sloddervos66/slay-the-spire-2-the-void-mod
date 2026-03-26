@@ -49,6 +49,8 @@
     "THEVOID-VOID_PACT.title": "Void Pact",
     "THEVOID-NULL_STEP.description": "Gain {CalculatedBlock:diff()} [gold]Block[/gold]. Gain {AdditionalBlock:diff()} [gold]Block[/gold] for every {BlindPower:diff()} [gold]Blind[/gold] stacks on the enemy.",
     "THEVOID-NULL_STEP.title": "Null Step",
+    "THEVOID-BLACK_MIRROR.description": "Apply [gold]Blind[/gold] equal to your [gold]Blind[/gold] stacks on the target.",
+    "THEVOID-BLACK_MIRROR.title": "Black Mirror",
     
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse",
