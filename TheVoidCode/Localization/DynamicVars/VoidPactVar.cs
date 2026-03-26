@@ -17,7 +17,8 @@ public class VoidPactVar(decimal baseValue) : DynamicVar(Name, baseValue)
         Creature? target, 
         bool runGlobalHooks)
     {
+        var self = card.Owner.Creature;
         HasTarget = true;
-        PreviewValue = target.GetHpThreshold(BaseValue);
+        PreviewValue = self.GetHpThreshold(BaseValue);
     }
 }

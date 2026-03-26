@@ -30,7 +30,10 @@ public sealed class VoidPact() : TheVoidCard(0, CardType.Skill, CardRarity.Uncom
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await CreatureCmd.Damage(choiceContext, Owner.Creature, DynamicVars[VoidPactVar.Name].BaseValue, ValueProp.Unblockable | ValueProp.Unpowered | ValueProp.Move, this);
+        var percent = DynamicVars[VoidPactVar.Name].BaseValue / 100m;
+        var actualDamage = Owner.Creature.MaxHp * percent;
+        
+        await CreatureCmd.Damage(choiceContext, Owner.Creature, actualDamage, ValueProp.Unblockable | ValueProp.Unpowered | ValueProp.Move, this);
         await PlayerCmd.GainEnergy(DynamicVars.Energy.BaseValue, Owner);
     }
 
