@@ -107,18 +107,18 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ## Rare (6)
 
-### Attacks (2)
+### Attacks (1)
 
-| Card                | Cost | Description                                                                       | Upgrade             | Completed |
-|---------------------|------|-----------------------------------------------------------------------------------|---------------------|-----------|
-| **Event Horizon**   | 3    | Deal 18 damage to ALL enemies. If any enemy dies, gain 2 energy and draw 2 cards. | Deal 22 damage.     | N         |
-| **Void Execution**  | 2    | Deal 20 damage. If the enemy dies, gain 3 energy. Exhaust.                        | No longer Exhausts. | N         |
+| Card                      | Cost | Description                                                                          | Upgrade             | Completed |
+|---------------------------|------|--------------------------------------------------------------------------------------|---------------------|-----------|
+| **Event Horizon**         | 3    | Deal 18 damage to ALL enemies. If any enemy dies, gain 2 energy and draw 2 cards.    | Deal 23 damage.     | Y         |
+| **Void Execution**        | 2    | Deal 20 damage. If the enemy dies, gain 3 energy. Exhaust.                           | No longer Exhausts. | N         |
+| **The Void Stares Back**  | 4    | Lose HP equal to 40% of your max HP. Deal damage equal to HP lost times 3. Exhaust.  | Times 4.            | N         |
 
-### Skills (2)
+### Skills (1)
 
 | Card                     | Cost | Description                                                                         | Upgrade       | Completed |
 |--------------------------|------|-------------------------------------------------------------------------------------|---------------|-----------|
-| **The Void Stares Back** | 4    | Lose HP equal to 40% of your max HP. Deal damage equal to HP lost times 3. Exhaust. | Times 4.      | N         |
 | **Unending Hunger**      | 0    | Whenever an enemy dies this turn, draw 2 cards. Exhaust.                            | Draw 3 cards. | N         |
 
 ### Powers (2)

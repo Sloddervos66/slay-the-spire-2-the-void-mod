@@ -53,7 +53,9 @@
     "THEVOID-BLACK_MIRROR.title": "Black Mirror",
     "THEVOID-NULL_RITUAL.description": "Lose {HpLoss:diff()} HP. Apply {BlindPower:diff()} [gold]Blind[/gold] to ALL enemies.",
     "THEVOID-NULL_RITUAL.title": "Null Ritual",
-    
+
+    "THEVOID-EVENT_HORIZON.description": "Deal {Damage:diff()} to ALL enemies. If any enemy dies, gain {Energy:diff()} [gold]energy[/gold] and {Cards:diff()} draw {Cards:plural:card|cards}.",
+    "THEVOID-EVENT_HORIZON.title": "Event Horizon",
     "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
     "THEVOID-ECLIPSE.title": "Eclipse",
     "THEVOID-VOID_ASCENDANT.description": "At the start of each turn, apply [blue]{VoidMendPower:diff()}[/blue] [gold]Void Mend[/gold] to ALL enemies. Gain [blue]{Block:diff()}[/blue] [gold]Block[/gold] for every [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] stacks on ALL enemies.",
