@@ -22,7 +22,7 @@ jobs:
                   dotnet-version: 9.0.x
             
             - name: Publish Mod
-              run: dotnet publish -c Release
+              run: dotnet publish TheVoid.csproj -c Release
               
             - name: Zip dist
               run: cd dist && zip -r ../TheVoidSts2Mod.zip TheVoid
