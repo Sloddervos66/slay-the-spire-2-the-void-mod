@@ -131,12 +131,12 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 ---
 
 ### On-Death Power Names
-| Power Name     | Effect                                     |
-|----------------|--------------------------------------------|
-| **Last Gasp**  | On death, draw cards                       |
-| **Void Pulse** | On death, gain energy                      |
-| **Death Feed** | On death, heal HP                          |
-| **Void Flash** | On death, apply Blind to remaining enemies |
+| Power Name     | Effect                                                    |
+|----------------|-----------------------------------------------------------|
+| **Last Gasp**  | On death, draw cards                                      |
+| **Void Pulse** | On death, gain energy                                     |
+| **Death Feed** | On death, heal HP (If on Attack, apply before attacking.) |
+| **Void Flash** | On death, apply Blind to remaining enemies                |
 
 ### New Powers
 | Power Name    | Effect                                                               |
