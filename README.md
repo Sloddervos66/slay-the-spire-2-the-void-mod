@@ -117,9 +117,9 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ### Skills (1)
 
-| Card                     | Cost | Description                                                                         | Upgrade       | Completed |
-|--------------------------|------|-------------------------------------------------------------------------------------|---------------|-----------|
-| **Unending Hunger**      | 0    | Whenever an enemy dies this turn, draw 2 cards. Exhaust.                            | Draw 3 cards. | N         |
+| Card                     | Cost | Description                                      | Upgrade       | Completed |
+|--------------------------|------|--------------------------------------------------|---------------|-----------|
+| **Unending Hunger**      | 1    | Whenever an enemy dies this turn, draw 2 cards.  | Draw 3 cards. | Y         |
 
 ### Powers (2)
 

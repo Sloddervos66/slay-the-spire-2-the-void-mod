@@ -49,5 +49,9 @@
 
     "THEVOID-VOID_CLAIMED_POWER.description": "Cannot gain [gold]Consumption[/gold].",
     "THEVOID-VOID_CLAIMED_POWER.smartDescription": "Cannot gain [gold]Consumption[/gold].",
-    "THEVOID-VOID_CLAIMED_POWER.title": "Void Claimed"
+    "THEVOID-VOID_CLAIMED_POWER.title": "Void Claimed",
+
+    "THEVOID-UNENDING_HUNGER_POWER.description": "Whenever you kill an enemy this turn, draw 2 cards.",
+    "THEVOID-UNENDING_HUNGER_POWER.smartDescription": "Whenever you kill an enemy this turn, draw [blue]{Amount}[/blue] {Amount:plural:card|cards}.",
+    "THEVOID-UNENDING_HUNGER_POWER.title": "Unending Hunger"
 }
