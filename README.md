@@ -76,16 +76,17 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ---
 
-## Uncommon (10)
+## Uncommon (11)
 
-### Attacks (4)
+### Attacks (5)
 
-| Card               | Cost | Description                                                                          | Upgrade                                               | Completed |
-|--------------------|------|--------------------------------------------------------------------------------------|-------------------------------------------------------|-----------|
-| **Devour**         | 2    | Deal 10 damage. If target is below 10% of max HP kill instantly instead. Heal 10 HP. | Deal 13 damage. Kill instantly 13%. Heal 13 HP.       | Y         |
-| **Eclipse Strike** | 1    | Deal 7 damage. Apply 1 Void Flash.                                                   | Deal 10 damage.                                       | Y         |
-| **Hemorrhage**     | 2    | Lose 5 HP. Deal 18 damage.                                                           | Lose 7 HP. Deal 23 damage.                            | Y         |
-| **Blind Fury**     | 2    | Deal 5 damage. Deal an additional 2 damage per 3 Blind stacks applied to yourself.   | Deal 7 damage.                                        | Y         |
+| Card                | Cost | Description                                                                          | Upgrade                                         | Completed |
+|---------------------|------|--------------------------------------------------------------------------------------|-------------------------------------------------|-----------|
+| **Devour**          | 2    | Deal 10 damage. If target is below 10% of max HP kill instantly instead. Heal 10 HP. | Deal 13 damage. Kill instantly 13%. Heal 13 HP. | Y         |
+| **Eclipse Strike**  | 1    | Deal 7 damage. Apply 1 Void Flash.                                                   | Deal 10 damage.                                 | Y         |
+| **Hemorrhage**      | 2    | Lose 5 HP. Deal 18 damage.                                                           | Lose 7 HP. Deal 23 damage.                      | Y         |
+| **Blind Fury**      | 2    | Deal 5 damage. Deal an additional 2 damage per 3 Blind stacks applied to yourself.   | Deal 7 damage.                                  | Y         |
+| **Shared Darkness** | 2    | Deal 32 damage. Apply all Blind of the enemy to yourself.                            | Deal 40 damage.                                 | N         |
 
 ### Skills (5)
 
@@ -105,7 +106,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ---
 
-## Rare (6)
+## Rare (7)
 
 ### Attacks (1)
 
@@ -115,11 +116,12 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | **Void Execution**        | 2    | Deal 20 damage. If the enemy dies, gain 3 energy. Exhaust.                        | No longer Exhausts. | Y         |
 | **The Void Stares Back**  | 4    | Lose HP equal to 40% of your current HP. Deal damage equal to HP lost times 3.    | Times 4.            | Y         |
 
-### Skills (1)
+### Skills (2)
 
-| Card                     | Cost | Description                                      | Upgrade       | Completed |
-|--------------------------|------|--------------------------------------------------|---------------|-----------|
-| **Unending Hunger**      | 1    | Whenever an enemy dies this turn, draw 2 cards.  | Draw 3 cards. | Y         |
+| Card                 | Cost | Description                                                                      | Upgrade       | Completed |
+|----------------------|------|----------------------------------------------------------------------------------|---------------|-----------|
+| **Unending Hunger**  | 1    | Whenever an enemy dies this turn, draw 2 cards.                                  | Draw 3 cards. | Y         |
+| **Premature Demise** | 3    | Trigger all on death effects immediately. Remove all on death effects. Ethereal. | 2 cost.       | N         |
 
 ### Powers (2)
 
@@ -130,6 +132,20 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ---
 
+### Ancient (1)
+
+### Attack
+| Card        | Cost | Description                                                                     | Upgrade                             | Completed |
+|-------------|------|---------------------------------------------------------------------------------|-------------------------------------|-----------|
+| Singularity | 2    | Deal 50 damage to all enemies. Gain 10 Consumption. Gain Void Claimed. Exhaust. | Deal 70 damage. Gain 7 Consumption. | N         |
+
+---
+
+### Relics (1)
+| Relic          | Description                                       | Rarity      |
+|----------------|---------------------------------------------------|-------------|
+| Shattered Lens | Blind now ticks down by 2 at the end of the turn. | Common/Shop |
+
 ### On-Death Power Names
 | Power Name     | Effect                                                    |
 |----------------|-----------------------------------------------------------|
@@ -139,6 +155,8 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | **Void Flash** | On death, apply Blind to remaining enemies                |
 
 ### New Powers
-| Power Name    | Effect                                                               |
-|---------------|----------------------------------------------------------------------|
-| Blind         | Attacks are X% less accurate, where X is the number of Blind stacks. | |
+| Power Name   | Effect                                                                        |
+|--------------|-------------------------------------------------------------------------------|
+| Blind        | Attacks are X% less accurate, where X is the number of Blind stacks.          |
+| Consumption  | Whenever Consumption reaches 0, die. Each turn Consumption is decreased by 1. |
+| Void Claimed | Cannot gain Consumption.                                                      |
