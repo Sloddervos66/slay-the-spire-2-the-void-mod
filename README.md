@@ -47,25 +47,25 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ### Attacks (7)
 
-| Card               | Cost | Description                                        | Upgrade                                 | Completed |
-|--------------------|------|----------------------------------------------------|-----------------------------------------|-----------|
-| **Hollow Strike**  | 1    | Deal 6 damage. Apply 1 Last Gasp.                  | Deal 9 damage.                          | Y         |
-| **Void Slash**     | 1    | Deal 8 damage. Apply 1 Void Pulse.                 | Deal 11 damage.                         | Y         |
-| **Blind Side**     | 1    | Apply 2 Blind. Deal 4 damage.                      | Apply 3 Blind.                          | Y         |
-| **Void Drain**     | 1    | Lose 3 HP. Deal 10 damage.                         | Lose 4 HP. Deal 13 damage.              | Y         |
-| **Consuming Blow** | 2    | Deal 7 damage twice.                               | Deal 9 damage twice, apply 1 Last Gasp. | Y         |
-| **Gouged Eyes**    | 1    | Deal 7 damage. If you have Blind, deal 12 instead. | 9/16.                                   | Y         |
-| **Void Tap**       | 0    | Deal 3 damage. Apply 1 Blind. Exhaust              | Apply 2 Blind.                          | Y         |
+| Card               | Cost | Description                                                              | Upgrade                                 | Completed |
+|--------------------|------|--------------------------------------------------------------------------|-----------------------------------------|-----------|
+| **Hollow Strike**  | 1    | Deal 6 damage. Apply 1 Last Gasp.                                        | Deal 9 damage.                          | Y         |
+| **Void Slash**     | 1    | Deal 8 damage. Apply 1 Void Pulse.                                       | Deal 11 damage.                         | Y         |
+| **Blind Side**     | 2    | Deal 6 damage. If the enemy intends to attack, deal 6 additional damage. | Deal 8 damage. Deal 8 additional damage | N         |
+| **Void Drain**     | 1    | Lose 3 HP. Deal 10 damage.                                               | Lose 4 HP. Deal 13 damage.              | Y         |
+| **Consuming Blow** | 2    | Deal 7 damage twice.                                                     | Deal 9 damage twice, apply 1 Last Gasp. | Y         |
+| **Gouged Eyes**    | 1    | Deal 7 damage. If you have Blind, deal 12 instead.                       | 9/16.                                   | Y         |
 
 ### Skills (4)
 
-| Card            | Cost | Description                                       | Upgrade                      | Completed |
-|-----------------|------|---------------------------------------------------|------------------------------|-----------|
-| **Unravel**     | 0    | Lose 4 HP. Draw 3 cards.                          | Lose 3 HP.                   | Y         |
-| **Darken**      | 1    | Apply 2 Blind to ALL enemies. Exhaust.            | Apply 3 Blind.               | Y         |
-| **Void Shroud** | 1    | Gain 7 Block. Apply 1 Blind to yourself.          | Gain 10 Block.               | Y         |
-| **Wither**      | 2    | Apply 2 Blind to an enemy. Draw 1 card. Ethereal. | Apply 1 Blind. Draw 2 cards. | Y         |
-| **Dark Touch**  | 1    | Draw 2 cards if you have Blind.                   | Draw 3 cards.                | Y         |
+| Card              | Cost | Description                                                 | Upgrade                      | Completed |
+|-------------------|------|-------------------------------------------------------------|------------------------------|-----------|
+| **Anticipate**    | 0    | If the enemy intends to attack, apply 2 Blind. Exhaust      | Apply 3 Blind.               | N         |
+| **Unravel**       | 0    | Lose 4 HP. Draw 3 cards.                                    | Lose 3 HP.                   | Y         |
+| **Darken**        | 1    | Apply 2 Blind to ALL enemies. Exhaust.                      | Apply 3 Blind.               | Y         |
+| **Void Shroud**   | 1    | Gain 7 Block. Apply 1 Blind to yourself.                    | Gain 10 Block.               | Y         |
+| **Wither**        | 2    | Apply 2 Blind to an enemy. Draw 1 card. Ethereal.           | Apply 1 Blind. Draw 2 cards. | Y         |
+| **Dark Touch**    | 1    | Draw 2 cards if you have Blind.                             | Draw 3 cards.                | Y         |
 
 ### Powers (2)
 

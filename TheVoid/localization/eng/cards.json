@@ -16,8 +16,6 @@
     "THEVOID-CONSUMING_BLOW.title": "Consuming Blow",
     "THEVOID-GOUGED_EYES.description": "Deal {Damage:diff()} damage. If you have [gold]Blind[/gold] deal {BlindedDamage:diff()} instead.",
     "THEVOID-GOUGED_EYES.title": "Gouged Eyes",
-    "THEVOID-VOID_TAP.description": "Deal {Damage:diff()} damage. Apply {BlindPower:diff()} [gold]Blind[/gold].",
-    "THEVOID-VOID_TAP.title": "Void Tap",
     "THEVOID-UNRAVEL.description": "Lose {HpLoss:diff()} HP. Draw {Cards:diff()} {Cards:plural:card|cards}.",
     "THEVOID-UNRAVEL.title": "Unravel",
     "THEVOID-DARKEN.description": "Apply {BlindPower:diff()} [gold]Blind[/gold] to ALL enemies.",
@@ -32,6 +30,8 @@
     "THEVOID-FADE.title": "Fade",
     "THEVOID-VOID_SIGHT.description": "Whenever you apply [gold]Blind[/gold], draw {Cards:diff()} {Cards:plural:card|cards}.",
     "THEVOID-VOID_SIGHT.title": "Void Sight",
+    "THEVOID-ANTICIPATE.description": "If the enemy intends to attack, apply {BlindPower:diff()} [gold]Blind[/gold].",
+    "THEVOID-ANTICIPATE.title": "Anticipate",
 
     "THEVOID-DEVOUR.description": "Deal {Damage:diff()} damage. If enemy is below {TargetSelected:{InstantDeath:diff()}|{InstantDeath:diff()}%} HP, kill instantly instead. Heal {Heal:diff()} HP.",
     "THEVOID-DEVOUR.title": "Devour",
