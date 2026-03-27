@@ -105,7 +105,6 @@
         <Folder Include="TheVoidCode\Localization\" />
         <Folder Include="TheVoidCode\Relics\Ancient\" />
         <Folder Include="TheVoidCode\Relics\Starter\" />
-        <Folder Include="TheVoidCode\Relics\Common\" />
         <Folder Include="TheVoidCode\Relics\Event\" />
         <Folder Include="TheVoidCode\Relics\Rare\" />
         <Folder Include="TheVoidCode\Relics\Shop\" />

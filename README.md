@@ -51,7 +51,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 |--------------------|------|--------------------------------------------------------------------------|-----------------------------------------|-----------|
 | **Hollow Strike**  | 1    | Deal 6 damage. Apply 1 Last Gasp.                                        | Deal 9 damage.                          | Y         |
 | **Void Slash**     | 1    | Deal 8 damage. Apply 1 Void Pulse.                                       | Deal 11 damage.                         | Y         |
-| **Blind Side**     | 2    | Deal 6 damage. If the enemy intends to attack, deal 6 additional damage. | Deal 8 damage. Deal 8 additional damage | N         |
+| **Blind Side**     | 2    | Deal 6 damage. If the enemy intends to attack, deal 6 additional damage. | Deal 8 damage. Deal 8 additional damage | Y         |
 | **Void Drain**     | 1    | Lose 3 HP. Deal 10 damage.                                               | Lose 4 HP. Deal 13 damage.              | Y         |
 | **Consuming Blow** | 2    | Deal 7 damage twice.                                                     | Deal 9 damage twice, apply 1 Last Gasp. | Y         |
 | **Gouged Eyes**    | 1    | Deal 7 damage. If you have Blind, deal 12 instead.                       | 9/16.                                   | Y         |
@@ -60,7 +60,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 | Card              | Cost | Description                                                 | Upgrade                      | Completed |
 |-------------------|------|-------------------------------------------------------------|------------------------------|-----------|
-| **Anticipate**    | 0    | If the enemy intends to attack, apply 2 Blind. Exhaust      | Apply 3 Blind.               | N         |
+| **Anticipate**    | 0    | If the enemy intends to attack, apply 2 Blind. Exhaust      | Apply 3 Blind.               | Y         |
 | **Unravel**       | 0    | Lose 4 HP. Draw 3 cards.                                    | Lose 3 HP.                   | Y         |
 | **Darken**        | 1    | Apply 2 Blind to ALL enemies. Exhaust.                      | Apply 3 Blind.               | Y         |
 | **Void Shroud**   | 1    | Gain 7 Block. Apply 1 Blind to yourself.                    | Gain 10 Block.               | Y         |
@@ -137,14 +137,14 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 ### Attack
 | Card        | Cost | Description                                                                     | Upgrade                             | Completed |
 |-------------|------|---------------------------------------------------------------------------------|-------------------------------------|-----------|
-| Singularity | 2    | Deal 50 damage to all enemies. Gain 10 Consumption. Gain Void Claimed. Exhaust. | Deal 70 damage. Gain 7 Consumption. | N         |
+| Singularity | 2    | Deal 50 damage to all enemies. Gain 10 Consumption. Gain Void Claimed. Exhaust. | Deal 70 damage. Gain 7 Consumption. | Y         |
 
 ---
 
 ### Relics (1)
-| Relic          | Description                                       | Rarity      |
-|----------------|---------------------------------------------------|-------------|
-| Shattered Lens | Blind now ticks down by 2 at the end of the turn. | Common/Shop |
+| Relic          | Description                                       | Rarity      | Completed |
+|----------------|---------------------------------------------------|-------------|-----------|
+| Shattered Lens | Blind now ticks down by 2 at the end of the turn. | Common/Shop | Y         |
 
 ### On-Death Power Names
 | Power Name     | Effect                                                    |
