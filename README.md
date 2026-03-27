@@ -86,7 +86,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | **Eclipse Strike**  | 1    | Deal 7 damage. Apply 1 Void Flash.                                                   | Deal 10 damage.                                 | Y         |
 | **Hemorrhage**      | 2    | Lose 5 HP. Deal 18 damage.                                                           | Lose 7 HP. Deal 23 damage.                      | Y         |
 | **Blind Fury**      | 2    | Deal 5 damage. Deal an additional 2 damage per 3 Blind stacks applied to yourself.   | Deal 7 damage.                                  | Y         |
-| **Shared Darkness** | 2    | Deal 32 damage. Apply all Blind of the enemy to yourself.                            | Deal 40 damage.                                 | N         |
+| **Shared Darkness** | 2    | Deal 32 damage. Apply all Blind of the enemy to yourself.                            | Deal 40 damage.                                 | Y         |
 
 ### Skills (5)
 
@@ -118,10 +118,10 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ### Skills (2)
 
-| Card                 | Cost | Description                                                                      | Upgrade       | Completed |
-|----------------------|------|----------------------------------------------------------------------------------|---------------|-----------|
-| **Unending Hunger**  | 1    | Whenever an enemy dies this turn, draw 2 cards.                                  | Draw 3 cards. | Y         |
-| **Premature Demise** | 3    | Trigger all on death effects immediately. Remove all on death effects. Ethereal. | 2 cost.       | N         |
+| Card                 | Cost | Description                                                                  | Upgrade       | Completed |
+|----------------------|------|------------------------------------------------------------------------------|---------------|-----------|
+| **Unending Hunger**  | 1    | Whenever an enemy dies this turn, draw 2 cards.                              | Draw 3 cards. | Y         |
+| **Premature Demise** | 3    | Immediately trigger and remove all on death effects of the target. Ethereal. | 2 cost.       | N         |
 
 ### Powers (2)
 

@@ -66,6 +66,8 @@
     "THEVOID-ECLIPSE.title": "Eclipse",
     "THEVOID-UNENDING_HUNGER.description": "Whenever an enemy dies this turn, draw {UnendingHungerPower:diff()} {UnendingHungerPower:plural:card|cards}.",
     "THEVOID-UNENDING_HUNGER.title": "Unending Hunger",
+    "THEVOID-PREMATURE_DEMISE.description": "Immediately trigger and remove all [gold]on death effects[/gold] of the target.",
+    "THEVOID-PREMATURE_DEMISE.title": "Premature Demise",
     "THEVOID-VOID_ASCENDANT.description": "At the start of each turn, apply {VoidMendPower:diff()} [gold]Void Mend[/gold] to ALL enemies. Gain {Block:diff()} [gold]Block[/gold] for every {BlindPower:diff()} [gold]Blind[/gold] stacks on ALL enemies.",
     "THEVOID-VOID_ASCENDANT.title": "Void Ascendant",
     "THEVOID-ABYSSAL_GAZE.description": "Whenever an enemy dies, apply {BlindPower:diff()} [gold]Blind[/gold] to all remaining enemies.",
