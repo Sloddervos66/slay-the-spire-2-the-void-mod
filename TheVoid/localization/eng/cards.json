@@ -6,9 +6,9 @@
 
     "THEVOID-HOLLOW_STRIKE.description": "Deal {Damage:diff()} damage. Apply {LastGaspPower:diff()} [gold]Last Gasp[/gold].",
     "THEVOID-HOLLOW_STRIKE.title": "Hollow Strike",
-    "THEVOID-VOID_SLASH.description": "Deal {Damage:diff()} damage. Apply {VoidPulsePower:diff()} [gold]Void Pulse[/gold]",
+    "THEVOID-VOID_SLASH.description": "Deal {Damage:diff()} damage. Apply {VoidPulsePower:diff()} [gold]Void Pulse[/gold].",
     "THEVOID-VOID_SLASH.title": "Void Slash",
-    "THEVOID-BLIND_SIDE.description": "Deal {Damage:diff()} damage. Apply {BlindPower:diff()} [gold]Blind[/gold]",
+    "THEVOID-BLIND_SIDE.description": "Deal {Damage:diff()} damage. If the enemy intends to attack deal {AdditionalDamage:diff()} additional damage.",
     "THEVOID-BLIND_SIDE.title": "Blind Side",
     "THEVOID-VOID_DRAIN.description": "Lose {HpLoss:diff()}. Deal {Damage:diff()} damage.",
     "THEVOID-VOID_DRAIN.title": "Void Drain",
