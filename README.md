@@ -53,7 +53,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | **Void Slash**     | 1    | Deal 8 damage. Apply 1 Void Pulse.                 | Deal 11 damage.                         | Y         |
 | **Blind Side**     | 1    | Apply 2 Blind. Deal 4 damage.                      | Apply 3 Blind.                          | Y         |
 | **Void Drain**     | 1    | Lose 3 HP. Deal 10 damage.                         | Lose 4 HP. Deal 13 damage.              | Y         |
-| **Consuming Blow** | 2    | Deal 5 damage twice.                               | Deal 6 damage twice, apply 1 Last Gasp. | Y         |
+| **Consuming Blow** | 2    | Deal 7 damage twice.                               | Deal 9 damage twice, apply 1 Last Gasp. | Y         |
 | **Gouged Eyes**    | 1    | Deal 7 damage. If you have Blind, deal 12 instead. | 9/16.                                   | Y         |
 | **Void Tap**       | 0    | Deal 3 damage. Apply 1 Blind. Exhaust              | Apply 2 Blind.                          | Y         |
 

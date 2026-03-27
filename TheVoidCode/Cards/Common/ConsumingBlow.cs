@@ -16,7 +16,7 @@ public sealed class ConsumingBlow() : TheVoidCard(2, CardType.Attack, CardRarity
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new DamageVar(5m, ValueProp.Move),
+        new DamageVar(7m, ValueProp.Move),
         new PowerVar<LastGaspPower>(0m)
     ];
 
@@ -47,7 +47,7 @@ public sealed class ConsumingBlow() : TheVoidCard(2, CardType.Attack, CardRarity
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Damage.UpgradeValueBy(1m);
+        DynamicVars.Damage.UpgradeValueBy(2m);
         DynamicVars[LastGaspPower.Name].UpgradeValueBy(1m);
     }
 }
