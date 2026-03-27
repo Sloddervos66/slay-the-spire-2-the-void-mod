@@ -71,5 +71,8 @@
     "THEVOID-VOID_ASCENDANT.description": "At the start of each turn, apply {VoidMendPower:diff()} [gold]Void Mend[/gold] to ALL enemies. Gain {Block:diff()} [gold]Block[/gold] for every {BlindPower:diff()} [gold]Blind[/gold] stacks on ALL enemies.",
     "THEVOID-VOID_ASCENDANT.title": "Void Ascendant",
     "THEVOID-ABYSSAL_GAZE.description": "Whenever an enemy dies, apply {BlindPower:diff()} [gold]Blind[/gold] to all remaining enemies.",
-    "THEVOID-ABYSSAL_GAZE.title": "Abyssal Gaze"
+    "THEVOID-ABYSSAL_GAZE.title": "Abyssal Gaze",
+
+    "THEVOID-SINGULARITY.description": "Deal {Damage:diff()} to ALL enemies. Gain {ConsumptionPower:diff()} [gold]Consumption[/gold]. Gain [gold]Void Claimed[/gold].",
+    "THEVOID-SINGULARITY.title": "Singularity"
 }

@@ -121,7 +121,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | Card                 | Cost | Description                                                                  | Upgrade       | Completed |
 |----------------------|------|------------------------------------------------------------------------------|---------------|-----------|
 | **Unending Hunger**  | 1    | Whenever an enemy dies this turn, draw 2 cards.                              | Draw 3 cards. | Y         |
-| **Premature Demise** | 3    | Immediately trigger and remove all on death effects of the target. Ethereal. | 2 cost.       | N         |
+| **Premature Demise** | 3    | Immediately trigger and remove all on death effects of the target. Ethereal. | 2 cost.       | Y         |
 
 ### Powers (2)
 
