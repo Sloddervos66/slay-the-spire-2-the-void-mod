@@ -93,7 +93,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 |-------------------|------|------------------------------------------------------------------------------|-------------------------------------------------------|-----------|
 | **Void Offering** | 1    | Exhaust a card in your hand. Apply 3 Void Mend.                              | Apply 5 Void Mend.                                    | Y         |
 | **Void Pact**     | 0    | Lose HP equal to 7% of your max HP. Gain 1 energy. Exhaust.                  | Gain 2 Energy. Ethereal.                              | Y         |
-| **Null Step**     | 1    | Gain 8 Block. Gain 4 additional Block for every 5 Blind stacks on the enemy. | Gain 10 Block. Gain 4 extra Block for every 3 stacks. | Y         |
+| **Null Step**     | 2    | Gain 8 Block. Gain 4 additional Block for every 5 Blind stacks on the enemy. | Gain 10 Block. Gain 4 extra Block for every 3 stacks. | Y         |
 | **Black Mirror**  | 1    | Apply Blind equal to your current Blind stacks to a target enemy. Exhaust.   | Innate.                                               | Y         |
 | **Null Ritual**   | 2    | Lose 7 HP. Apply 3 Blind to ALL enemies. Exhaust.                            | Lose 4 HP.                                            | Y         |
 

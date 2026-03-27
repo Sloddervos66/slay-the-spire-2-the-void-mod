@@ -12,7 +12,7 @@ using TheVoid.TheVoidCode.Powers;
 namespace TheVoid.TheVoidCode.Cards.Uncommon;
 
 [Pool(typeof(TheVoidCardPool))]
-public sealed class NullStep() : TheVoidCard(1, CardType.Skill, CardRarity.Uncommon, TargetType.AnyEnemy)
+public sealed class NullStep() : TheVoidCard(2, CardType.Skill, CardRarity.Uncommon, TargetType.AnyEnemy)
 {
     private const string AdditionalBlock = "AdditionalBlock";
     
