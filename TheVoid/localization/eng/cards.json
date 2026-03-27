@@ -43,6 +43,8 @@
     "THEVOID-HEMORRHAGE.title": "Hemorrhage",
     "THEVOID-BLIND_FURY.description": "Deal {BlindFury:diff()} damage. Deal an additional {AdditionalDamage:diff()} damage per {BlindPower:diff()} [gold]Blind[/gold] stacks applied to yourself.",
     "THEVOID-BLIND_FURY.title": "Blind Fury",
+    "THEVOID-SHARED_DARKNESS.description": "Deal {Damage:diff()} damage. Apply all [gold]Blind[/gold] of the target to yourself.",
+    "THEVOID-SHARED_DARKNESS.title": "Shared Darkness",
     "THEVOID-VOID_OFFERING.description": "[gold]Exhaust[/gold] a card in your hand. Apply {VoidMendPower:diff()} [gold]Void Mend[/gold].",
     "THEVOID-VOID_OFFERING.title": "Void Offering",
     "THEVOID-VOID_PACT.description": "Lose HP equal to {PercentDamage:diff()}% of your max HP. Gain {Energy:diff()} [gold]Energy[/gold].{InCombat:\n(Deals {CalculatedDamage:diff()} damage)|}",
