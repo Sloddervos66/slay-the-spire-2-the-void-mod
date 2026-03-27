@@ -7,7 +7,7 @@ public sealed class VoidMendPower : OnDeathTriggerPower
 {
     public const string Name = nameof(VoidMendPower);
     
-    protected override async Task TriggerEffect(PlayerChoiceContext choiceContext)
+    public override async Task TriggerEffect(PlayerChoiceContext choiceContext)
     {
         var player = Applier?.Player;
         if (player == null) return;
