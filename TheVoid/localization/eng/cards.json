@@ -16,6 +16,9 @@
     "THEVOID-CONSUMING_BLOW.title": "Consuming Blow",
     "THEVOID-GOUGED_EYES.description": "Deal {Damage:diff()} damage. If you have [gold]Blind[/gold] deal {BlindedDamage:diff()} instead.",
     "THEVOID-GOUGED_EYES.title": "Gouged Eyes",
+
+    "THEVOID-ANTICIPATE.description": "If the enemy intends to attack, apply {BlindPower:diff()} [gold]Blind[/gold].",
+    "THEVOID-ANTICIPATE.title": "Anticipate",
     "THEVOID-UNRAVEL.description": "Lose {HpLoss:diff()} HP. Draw {Cards:diff()} {Cards:plural:card|cards}.",
     "THEVOID-UNRAVEL.title": "Unravel",
     "THEVOID-DARKEN.description": "Apply {BlindPower:diff()} [gold]Blind[/gold] to ALL enemies.",
@@ -26,17 +29,14 @@
     "THEVOID-WITHER.title": "Wither",
     "THEVOID-DARK_TOUCH.description": "Draw {Cards:diff()} {Cards:plural:card|cards} if you have [gold]Blind[/gold].",
     "THEVOID-DARK_TOUCH.title": "Dark Touch",
+    
     "THEVOID-FADE.description": "At the start of each turn gain 1 [gold]Energy[/gold] and apply {FadePower:diff()} [gold]Blind[/gold] to yourself.",
     "THEVOID-FADE.title": "Fade",
     "THEVOID-VOID_SIGHT.description": "Whenever you apply [gold]Blind[/gold], draw {Cards:diff()} {Cards:plural:card|cards}.",
     "THEVOID-VOID_SIGHT.title": "Void Sight",
-    "THEVOID-ANTICIPATE.description": "If the enemy intends to attack, apply {BlindPower:diff()} [gold]Blind[/gold].",
-    "THEVOID-ANTICIPATE.title": "Anticipate",
 
     "THEVOID-DEVOUR.description": "Deal {Damage:diff()} damage. If enemy is below {TargetSelected:{InstantDeath:diff()}|{InstantDeath:diff()}%} HP, kill instantly instead. Heal {Heal:diff()} HP.",
     "THEVOID-DEVOUR.title": "Devour",
-    "THEVOID-BLOOD_RITE.description": "Whenever you lose HP, gain {Energy:diff()} [gold]Energy[/gold]{IsUpgraded}.",
-    "THEVOID-BLOOD_RITE.title": "Blood Rite",
     "THEVOID-ECLIPSE_STRIKE.description": "Deal {Damage:diff()} damage. Apply {VoidFlashPower:diff()} [gold]Void Flash[/gold].",
     "THEVOID-ECLIPSE_STRIKE.title": "Eclipse Strike",
     "THEVOID-HEMORRHAGE.description": "Lose {HpLoss:diff()} HP. Deal {Damage:diff()} damage.",
@@ -45,6 +45,7 @@
     "THEVOID-BLIND_FURY.title": "Blind Fury",
     "THEVOID-SHARED_DARKNESS.description": "Deal {Damage:diff()} damage. Apply all [gold]Blind[/gold] of the target to yourself.",
     "THEVOID-SHARED_DARKNESS.title": "Shared Darkness",
+    
     "THEVOID-VOID_OFFERING.description": "[gold]Exhaust[/gold] a card in your hand. Apply {VoidMendPower:diff()} [gold]Void Mend[/gold].",
     "THEVOID-VOID_OFFERING.title": "Void Offering",
     "THEVOID-VOID_PACT.description": "Lose HP equal to {PercentDamage:diff()}% of your max HP. Gain {Energy:diff()} [gold]Energy[/gold].{InCombat:\n(Deals {CalculatedDamage:diff()} damage)|}",
@@ -56,18 +57,21 @@
     "THEVOID-NULL_RITUAL.description": "Lose {HpLoss:diff()} HP. Apply {BlindPower:diff()} [gold]Blind[/gold] to ALL enemies.",
     "THEVOID-NULL_RITUAL.title": "Null Ritual",
 
+    "THEVOID-BLOOD_RITE.description": "Whenever you lose HP, gain {Energy:diff()} [gold]Energy[/gold]{IsUpgraded}.",
+    "THEVOID-BLOOD_RITE.title": "Blood Rite",
+
     "THEVOID-EVENT_HORIZON.description": "Deal {Damage:diff()} to ALL enemies. If any enemy dies, gain {Energy:diff()} [gold]Energy[/gold] and {Cards:diff()} draw {Cards:plural:card|cards}.",
     "THEVOID-EVENT_HORIZON.title": "Event Horizon",
     "THEVOID-VOID_EXECUTION.description": "Deal {Damage:diff()} damage. If the enemy dies, gain {Energy:diff()} [gold]Energy[/gold].",
     "THEVOID-VOID_EXECUTION.title": "Void Execution",
     "THEVOID-THE_VOID_STARES_BACK.description": "Lose HP equal to {PercentDamage:diff()}% of your current HP. Deal damage equal to HP lost times {Multiplier:diff()}.{InCombat:\n(Deals {CalculatedDamage:diff()} damage)|}",
     "THEVOID-THE_VOID_STARES_BACK.title": "The Void Stares Back",
-    "THEVOID-ECLIPSE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold].",
-    "THEVOID-ECLIPSE.title": "Eclipse",
+    
     "THEVOID-UNENDING_HUNGER.description": "Whenever an enemy dies this turn, draw {UnendingHungerPower:diff()} {UnendingHungerPower:plural:card|cards}.",
     "THEVOID-UNENDING_HUNGER.title": "Unending Hunger",
     "THEVOID-PREMATURE_DEMISE.description": "Immediately trigger and remove all [gold]on death effects[/gold] of the target.",
     "THEVOID-PREMATURE_DEMISE.title": "Premature Demise",
+    
     "THEVOID-VOID_ASCENDANT.description": "At the start of each turn, apply {VoidMendPower:diff()} [gold]Void Mend[/gold] to ALL enemies. Gain {Block:diff()} [gold]Block[/gold] for every {BlindPower:diff()} [gold]Blind[/gold] stacks on ALL enemies.",
     "THEVOID-VOID_ASCENDANT.title": "Void Ascendant",
     "THEVOID-ABYSSAL_GAZE.description": "Whenever an enemy dies, apply {BlindPower:diff()} [gold]Blind[/gold] to all remaining enemies.",
