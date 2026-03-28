@@ -12,7 +12,7 @@ public class TheVoid : PlaceholderCharacterModel
 {
     public const string CharacterId = "TheVoid";
 
-    public static readonly Color Color = new("000000");
+    public static readonly Color Color = new("#2B0A3D");
 
     public override Color NameColor => Color;
     public override CharacterGender Gender => CharacterGender.Neutral;
