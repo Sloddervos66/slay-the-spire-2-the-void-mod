@@ -10,7 +10,7 @@ using TheVoid.TheVoidCode.Powers;
 namespace TheVoid.TheVoidCode.Cards.Common;
 
 [Pool(typeof(TheVoidCardPool))]
-public sealed class Anticipate() : TheVoidCard(0, CardType.Skill, CardRarity.Common, TargetType.AnyEnemy)
+public sealed class VoidInsight() : TheVoidCard(0, CardType.Skill, CardRarity.Common, TargetType.AnyEnemy)
 {
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<BlindPower>()];

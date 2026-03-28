@@ -58,14 +58,14 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ### Skills (4)
 
-| Card              | Cost | Description                                                 | Upgrade                      | Completed |
-|-------------------|------|-------------------------------------------------------------|------------------------------|-----------|
-| **Anticipate**    | 0    | If the enemy intends to attack, apply 2 Blind. Exhaust      | Apply 3 Blind.               | Y         |
-| **Unravel**       | 0    | Lose 4 HP. Draw 3 cards.                                    | Lose 3 HP.                   | Y         |
-| **Darken**        | 1    | Apply 2 Blind to ALL enemies. Exhaust.                      | Apply 3 Blind.               | Y         |
-| **Void Shroud**   | 1    | Gain 7 Block. Apply 1 Blind to yourself.                    | Gain 10 Block.               | Y         |
-| **Wither**        | 2    | Apply 2 Blind to an enemy. Draw 1 card. Ethereal.           | Apply 1 Blind. Draw 2 cards. | Y         |
-| **Dark Touch**    | 1    | Draw 2 cards if you have Blind.                             | Draw 3 cards.                | Y         |
+| Card             | Cost | Description                                                 | Upgrade                      | Completed |
+|------------------|------|-------------------------------------------------------------|------------------------------|-----------|
+| **Void Insight** | 0    | If the enemy intends to attack, apply 2 Blind. Exhaust      | Apply 3 Blind.               | Y         |
+| **Unravel**      | 0    | Lose 4 HP. Draw 3 cards.                                    | Lose 3 HP.                   | Y         |
+| **Darken**       | 1    | Apply 2 Blind to ALL enemies. Exhaust.                      | Apply 3 Blind.               | Y         |
+| **Void Shroud**  | 1    | Gain 7 Block. Apply 1 Blind to yourself.                    | Gain 10 Block.               | Y         |
+| **Wither**       | 2    | Apply 2 Blind to an enemy. Draw 1 card. Ethereal.           | Apply 1 Blind. Draw 2 cards. | Y         |
+| **Dark Touch**   | 1    | Draw 2 cards if you have Blind.                             | Draw 3 cards.                | Y         |
 
 ### Powers (2)
 

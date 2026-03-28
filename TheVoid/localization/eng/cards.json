@@ -17,8 +17,8 @@
     "THEVOID-GOUGED_EYES.description": "Deal {Damage:diff()} damage. If you have [gold]Blind[/gold] deal {BlindedDamage:diff()} instead.",
     "THEVOID-GOUGED_EYES.title": "Gouged Eyes",
 
-    "THEVOID-ANTICIPATE.description": "If the enemy intends to attack, apply {BlindPower:diff()} [gold]Blind[/gold].",
-    "THEVOID-ANTICIPATE.title": "Anticipate",
+    "THEVOID-VOID_INSIGHT.description": "If the enemy intends to attack, apply {BlindPower:diff()} [gold]Blind[/gold].",
+    "THEVOID-VOID_INSIGHT.title": "Void Insight",
     "THEVOID-UNRAVEL.description": "Lose {HpLoss:diff()} HP. Draw {Cards:diff()} {Cards:plural:card|cards}.",
     "THEVOID-UNRAVEL.title": "Unravel",
     "THEVOID-DARKEN.description": "Apply {BlindPower:diff()} [gold]Blind[/gold] to ALL enemies.",
