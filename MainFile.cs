@@ -1,6 +1,7 @@
 using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Modding;
+using TheVoid.TheVoidCode.Timeline;
 
 namespace TheVoid;
 
@@ -15,7 +16,8 @@ public partial class MainFile : Node
     public static void Initialize()
     {
         Harmony harmony = new(ModId);
-
         harmony.PatchAll();
+        
+        TheVoidEpochRegistry.Register();
     }
 }
