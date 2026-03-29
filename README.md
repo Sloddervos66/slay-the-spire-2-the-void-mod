@@ -43,7 +43,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 # Card Roster
 
-## Common (13)
+## Common (14)
 
 ### Attacks (7)
 
@@ -57,7 +57,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | **Gouged Eyes**    | 1    | Deal 7 damage. If you have Blind, deal 12 instead. | 9/16.                                   | Y         |
 | **Void Tap**       | 0    | Deal 3 damage. Apply 1 Blind. Exhaust              | Apply 2 Blind.                          | Y         |
 
-### Skills (4)
+### Skills (5)
 
 | Card            | Cost | Description                                       | Upgrade                      | Completed |
 |-----------------|------|---------------------------------------------------|------------------------------|-----------|
@@ -107,7 +107,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ## Rare (6)
 
-### Attacks (1)
+### Attacks (3)
 
 | Card                      | Cost | Description                                                                       | Upgrade             | Completed |
 |---------------------------|------|-----------------------------------------------------------------------------------|---------------------|-----------|
