@@ -15,5 +15,5 @@ public abstract class OnDeathTriggerPower : TheVoidPower
         await TriggerEffect(choiceContext);
     }
     
-    protected abstract Task TriggerEffect(PlayerChoiceContext choiceContext);
+    public abstract Task TriggerEffect(PlayerChoiceContext choiceContext);
 }

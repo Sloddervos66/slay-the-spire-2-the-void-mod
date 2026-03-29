@@ -7,7 +7,7 @@ public sealed class LastGaspPower : OnDeathTriggerPower
 {
     public const string Name = nameof(LastGaspPower);
     
-    protected override async Task TriggerEffect(PlayerChoiceContext choiceContext)
+    public override async Task TriggerEffect(PlayerChoiceContext choiceContext)
     {
         var player = Applier?.Player;
         if (player == null) return;

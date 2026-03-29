@@ -13,7 +13,7 @@ public sealed class VoidPact() : TheVoidCard(0, CardType.Skill, CardRarity.Uncom
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new("PercentDamage", 15m),
+        new("PercentDamage", 7m),
         new EnergyVar(1),
         new CalculationBaseVar(0m),
         new ExtraDamageVar(1m),

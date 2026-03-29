@@ -4,5 +4,9 @@
     "THEVOID-PITCH_BLACK.title": "Pitch Black",
     "THEVOID-TOTAL_DARKNESS.description": "At the start of combat, apply [blue]{BlindPower}[/blue] [gold]Blind[/gold] to all enemies.",
     "THEVOID-TOTAL_DARKNESS.flavor": "The Void grows stronger...",
-    "THEVOID-TOTAL_DARKNESS.title": "Total Darkness"
+    "THEVOID-TOTAL_DARKNESS.title": "Total Darkness",
+    
+    "THEVOID-SHATTERED_LENS.description": "[gold]Blind[/gold] now ticks down for EVERYONE by [blue]{BlindPower}[/blue] after each turn.",
+    "THEVOID-SHATTERED_LENS.flavor": "My eyesight, it's restoring?!",
+    "THEVOID-SHATTERED_LENS.title": "Shattered Lens"
 }

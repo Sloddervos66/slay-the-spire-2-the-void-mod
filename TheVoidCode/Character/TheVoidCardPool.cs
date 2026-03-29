@@ -16,7 +16,7 @@ public class TheVoidCardPool : CustomCardPoolModel
     They are applied as a shader onto an already colored image,
     so it may take some experimentation to find a color you like.
     Generally they should be values between 0 and 1. */
-    public override float H => 1f; //Hue; changes the color.
+    public override float H => 0.76f; //Hue; changes the color.
     public override float S => 1f; //Saturation
     public override float V => 1f; //Brightness
 
@@ -28,7 +28,7 @@ public class TheVoidCardPool : CustomCardPoolModel
     }*/
 
     //Color of small card icons
-    public override Color DeckEntryCardColor => new("000000");
+    public override Color DeckEntryCardColor => TheVoid.Color;
 
     public override bool IsColorless => false;
 }

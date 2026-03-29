@@ -13,7 +13,11 @@ namespace TheVoid.TheVoidCode.Cards.Uncommon;
 [Pool(typeof(TheVoidCardPool))]
 public sealed class VoidOffering() : TheVoidCard(1, CardType.Skill, CardRarity.Uncommon, TargetType.AnyEnemy)
 {
-    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromKeyword(CardKeyword.Exhaust)];
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => 
+    [
+        HoverTipFactory.FromPower<VoidMendPower>(),
+        HoverTipFactory.FromKeyword(CardKeyword.Exhaust)
+    ];
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<VoidMendPower>(3m)];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)

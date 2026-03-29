@@ -47,25 +47,25 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ### Attacks (7)
 
-| Card               | Cost | Description                                        | Upgrade                                 | Completed |
-|--------------------|------|----------------------------------------------------|-----------------------------------------|-----------|
-| **Hollow Strike**  | 1    | Deal 6 damage. Apply 1 Last Gasp.                  | Deal 9 damage.                          | Y         |
-| **Void Slash**     | 1    | Deal 8 damage. Apply 1 Void Pulse.                 | Deal 11 damage.                         | Y         |
-| **Blind Side**     | 1    | Apply 2 Blind. Deal 4 damage.                      | Apply 3 Blind.                          | Y         |
-| **Void Drain**     | 1    | Lose 3 HP. Deal 10 damage.                         | Lose 4 HP. Deal 13 damage.              | Y         |
-| **Consuming Blow** | 2    | Deal 5 damage twice.                               | Deal 6 damage twice, apply 1 Last Gasp. | Y         |
-| **Gouged Eyes**    | 1    | Deal 7 damage. If you have Blind, deal 12 instead. | 9/16.                                   | Y         |
-| **Void Tap**       | 0    | Deal 3 damage. Apply 1 Blind. Exhaust              | Apply 2 Blind.                          | Y         |
+| Card               | Cost | Description                                                              | Upgrade                                 | Completed |
+|--------------------|------|--------------------------------------------------------------------------|-----------------------------------------|-----------|
+| **Hollow Strike**  | 1    | Deal 6 damage. Apply 1 Last Gasp.                                        | Deal 9 damage.                          | Y         |
+| **Void Slash**     | 1    | Deal 8 damage. Apply 1 Void Pulse.                                       | Deal 11 damage.                         | Y         |
+| **Blind Side**     | 2    | Deal 6 damage. If the enemy intends to attack, deal 6 additional damage. | Deal 8 damage. Deal 8 additional damage | Y         |
+| **Void Drain**     | 1    | Lose 3 HP. Deal 10 damage.                                               | Lose 4 HP. Deal 13 damage.              | Y         |
+| **Consuming Blow** | 2    | Deal 7 damage twice.                                                     | Deal 9 damage twice, apply 1 Last Gasp. | Y         |
+| **Gouged Eyes**    | 1    | Deal 7 damage. If you have Blind, deal 12 instead.                       | 9/16.                                   | Y         |
 
 ### Skills (5)
 
-| Card            | Cost | Description                                       | Upgrade                      | Completed |
-|-----------------|------|---------------------------------------------------|------------------------------|-----------|
-| **Unravel**     | 0    | Lose 4 HP. Draw 3 cards.                          | Lose 3 HP.                   | Y         |
-| **Darken**      | 1    | Apply 2 Blind to ALL enemies. Exhaust.            | Apply 3 Blind.               | Y         |
-| **Void Shroud** | 1    | Gain 7 Block. Apply 1 Blind to yourself.          | Gain 10 Block.               | Y         |
-| **Wither**      | 2    | Apply 2 Blind to an enemy. Draw 1 card. Ethereal. | Apply 1 Blind. Draw 2 cards. | Y         |
-| **Dark Touch**  | 1    | Draw 2 cards if you have Blind.                   | Draw 3 cards.                | Y         |
+| Card             | Cost | Description                                                 | Upgrade                      | Completed |
+|------------------|------|-------------------------------------------------------------|------------------------------|-----------|
+| **Void Insight** | 0    | If the enemy intends to attack, apply 2 Blind. Exhaust      | Apply 3 Blind.               | Y         |
+| **Unravel**      | 0    | Lose 4 HP. Draw 3 cards.                                    | Lose 3 HP.                   | Y         |
+| **Darken**       | 1    | Apply 2 Blind to ALL enemies. Exhaust.                      | Apply 3 Blind.               | Y         |
+| **Void Shroud**  | 1    | Gain 7 Block. Apply 1 Blind to yourself.                    | Gain 10 Block.               | Y         |
+| **Wither**       | 2    | Apply 2 Blind to an enemy. Draw 1 card. Ethereal.           | Apply 1 Blind. Draw 2 cards. | Y         |
+| **Dark Touch**   | 1    | Draw 2 cards if you have Blind.                             | Draw 3 cards.                | Y         |
 
 ### Powers (2)
 
@@ -76,24 +76,25 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ---
 
-## Uncommon (10)
+## Uncommon (11)
 
-### Attacks (4)
+### Attacks (5)
 
-| Card               | Cost | Description                                                                          | Upgrade                                               | Completed |
-|--------------------|------|--------------------------------------------------------------------------------------|-------------------------------------------------------|-----------|
-| **Devour**         | 2    | Deal 10 damage. If target is below 10% of max HP kill instantly instead. Heal 10 HP. | Deal 13 damage. Kill instantly 13%. Heal 13 HP.       | Y         |
-| **Eclipse Strike** | 1    | Deal 7 damage. Apply 1 Void Flash.                                                   | Deal 10 damage.                                       | Y         |
-| **Hemorrhage**     | 2    | Lose 5 HP. Deal 18 damage.                                                           | Lose 7 HP. Deal 23 damage.                            | Y         |
-| **Blind Fury**     | 2    | Deal 5 damage. Deal an additional 2 damage per 3 Blind stacks applied to yourself.   | Deal 7 damage.                                        | Y         |
+| Card                | Cost | Description                                                                          | Upgrade                                         | Completed |
+|---------------------|------|--------------------------------------------------------------------------------------|-------------------------------------------------|-----------|
+| **Devour**          | 2    | Deal 10 damage. If target is below 10% of max HP kill instantly instead. Heal 10 HP. | Deal 13 damage. Kill instantly 13%. Heal 13 HP. | Y         |
+| **Eclipse Strike**  | 1    | Deal 7 damage. Apply 1 Void Flash.                                                   | Deal 10 damage.                                 | Y         |
+| **Hemorrhage**      | 2    | Lose 5 HP. Deal 18 damage.                                                           | Lose 7 HP. Deal 23 damage.                      | Y         |
+| **Blind Fury**      | 2    | Deal 5 damage. Deal an additional 2 damage per 3 Blind stacks applied to yourself.   | Deal 7 damage.                                  | Y         |
+| **Shared Darkness** | 2    | Deal 32 damage. Apply all Blind of the enemy to yourself.                            | Deal 40 damage.                                 | Y         |
 
 ### Skills (5)
 
 | Card              | Cost | Description                                                                  | Upgrade                                               | Completed |
 |-------------------|------|------------------------------------------------------------------------------|-------------------------------------------------------|-----------|
 | **Void Offering** | 1    | Exhaust a card in your hand. Apply 3 Void Mend.                              | Apply 5 Void Mend.                                    | Y         |
-| **Void Pact**     | 0    | Lose 15% HP. Gain 1 energy. Exhaust.                                         | Gain 2 Energy. Ethereal.                              | Y         |
-| **Null Step**     | 1    | Gain 8 Block. Gain 4 additional Block for every 5 Blind stacks on the enemy. | Gain 10 Block. Gain 4 extra Block for every 3 stacks. | Y         |
+| **Void Pact**     | 0    | Lose HP equal to 7% of your max HP. Gain 1 energy. Exhaust.                  | Gain 2 Energy. Ethereal.                              | Y         |
+| **Null Step**     | 2    | Gain 8 Block. Gain 4 additional Block for every 5 Blind stacks on the enemy. | Gain 10 Block. Gain 4 extra Block for every 3 stacks. | Y         |
 | **Black Mirror**  | 1    | Apply Blind equal to your current Blind stacks to a target enemy. Exhaust.   | Innate.                                               | Y         |
 | **Null Ritual**   | 2    | Lose 7 HP. Apply 3 Blind to ALL enemies. Exhaust.                            | Lose 4 HP.                                            | Y         |
 
@@ -105,7 +106,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ---
 
-## Rare (6)
+## Rare (7)
 
 ### Attacks (3)
 
@@ -115,11 +116,12 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | **Void Execution**        | 2    | Deal 20 damage. If the enemy dies, gain 3 energy. Exhaust.                        | No longer Exhausts. | Y         |
 | **The Void Stares Back**  | 4    | Lose HP equal to 40% of your current HP. Deal damage equal to HP lost times 3.    | Times 4.            | Y         |
 
-### Skills (1)
+### Skills (2)
 
-| Card                     | Cost | Description                                      | Upgrade       | Completed |
-|--------------------------|------|--------------------------------------------------|---------------|-----------|
-| **Unending Hunger**      | 1    | Whenever an enemy dies this turn, draw 2 cards.  | Draw 3 cards. | Y         |
+| Card                 | Cost | Description                                                                  | Upgrade       | Completed |
+|----------------------|------|------------------------------------------------------------------------------|---------------|-----------|
+| **Unending Hunger**  | 1    | Whenever an enemy dies this turn, draw 2 cards.                              | Draw 3 cards. | Y         |
+| **Premature Demise** | 3    | Immediately trigger and remove all on death effects of the target. Ethereal. | 2 cost.       | Y         |
 
 ### Powers (2)
 
@@ -130,6 +132,20 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ---
 
+### Ancient (1)
+
+### Attack
+| Card        | Cost | Description                                                                     | Upgrade                             | Completed |
+|-------------|------|---------------------------------------------------------------------------------|-------------------------------------|-----------|
+| Singularity | 2    | Deal 50 damage to all enemies. Gain 10 Consumption. Gain Void Claimed. Exhaust. | Deal 70 damage. Gain 7 Consumption. | Y         |
+
+---
+
+### Relics (1)
+| Relic          | Description                                       | Rarity      | Completed |
+|----------------|---------------------------------------------------|-------------|-----------|
+| Shattered Lens | Blind now ticks down by 2 at the end of the turn. | Common/Shop | Y         |
+
 ### On-Death Power Names
 | Power Name     | Effect                                                    |
 |----------------|-----------------------------------------------------------|
@@ -139,6 +155,8 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | **Void Flash** | On death, apply Blind to remaining enemies                |
 
 ### New Powers
-| Power Name    | Effect                                                               |
-|---------------|----------------------------------------------------------------------|
-| Blind         | Attacks are X% less accurate, where X is the number of Blind stacks. | |
+| Power Name   | Effect                                                                        |
+|--------------|-------------------------------------------------------------------------------|
+| Blind        | Attacks are X% less accurate, where X is the number of Blind stacks.          |
+| Consumption  | Whenever Consumption reaches 0, die. Each turn Consumption is decreased by 1. |
+| Void Claimed | Cannot gain Consumption.                                                      |
