@@ -135,16 +135,25 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 ### Ancient (1)
 
 ### Attack
-| Card        | Cost | Description                                                                     | Upgrade                             | Completed |
-|-------------|------|---------------------------------------------------------------------------------|-------------------------------------|-----------|
-| Singularity | 2    | Deal 50 damage to all enemies. Gain 10 Consumption. Gain Void Claimed. Exhaust. | Deal 70 damage. Gain 7 Consumption. | Y         |
+| Card            | Cost | Description                                                                     | Upgrade                             | Completed |
+|-----------------|------|---------------------------------------------------------------------------------|-------------------------------------|-----------|
+| **Singularity** | 2    | Deal 50 damage to all enemies. Gain 10 Consumption. Gain Void Claimed. Exhaust. | Deal 70 damage. Gain 7 Consumption. | Y         |
 
 ---
 
 ### Relics (1)
-| Relic          | Description                                       | Rarity      | Completed |
-|----------------|---------------------------------------------------|-------------|-----------|
-| Shattered Lens | Blind now ticks down by 2 at the end of the turn. | Common/Shop | Y         |
+| Relic              | Description                                       | Rarity      | Completed |
+|--------------------|---------------------------------------------------|-------------|-----------|
+| **Shattered Lens** | Blind now ticks down by 2 at the end of the turn. | Common/Shop | Y         |
+
+---
+
+### Potions (3)
+| Potion              | Description                                                                                | Rarity   | Completed |
+|---------------------|--------------------------------------------------------------------------------------------|----------|-----------|
+| Kraken in a Bottle  | Apply 20 blind to ALL enemies.                                                             | Rare     | N         |
+| Essence of Collapse | Apply 6 blind to ALL enemies. Trigger all on death effects on enemies with 50% or less HP. | Uncommon | N         |
+| Bottle of Ink       | Apply 10 blind to an enemy.                                                                | Common   | N         |
 
 ### On-Death Power Names
 | Power Name     | Effect                                                    |
