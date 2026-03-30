@@ -155,6 +155,8 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | Essence of Collapse | Apply 6 blind to ALL enemies. Trigger all on death effects on enemies with 50% or less HP. | Uncommon | N         |
 | Bottle of Ink       | Apply 10 blind to an enemy.                                                                | Common   | N         |
 
+---
+
 ### On-Death Power Names
 | Power Name     | Effect                                                    |
 |----------------|-----------------------------------------------------------|
