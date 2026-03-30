@@ -18,6 +18,8 @@ public sealed class Darken() : TheVoidCard(2, CardType.Skill, CardRarity.Common,
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
+        await CreatureCmd.TriggerAnim(Owner.Creature, Constants.TriggerAnim.Cast, Owner.Character.CastAnimDelay);
+        
         var enemies = Owner.Creature.CombatState?.Enemies
             .Where(e => e.IsAlive)
             .ToList();

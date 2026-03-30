@@ -13,12 +13,12 @@ public sealed class TheVoidStaresBack() : TheVoidCard(4, CardType.Attack, CardRa
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new("PercentDamage", 40m),
-        new("Multiplier", 3m),
+        new(Constants.DynamicVars.PercentDamage, 40m),
+        new(Constants.DynamicVars.Multiplier, 3m),
         new CalculationBaseVar(0m),
         new ExtraDamageVar(1m),
         new CalculatedDamageVar(ValueProp.Move).WithMultiplier((card, _) => 
-            card.Owner.Creature.CurrentHp * (card.DynamicVars["PercentDamage"].BaseValue / 100m))
+            card.Owner.Creature.CurrentHp * (card.DynamicVars[Constants.DynamicVars.PercentDamage].BaseValue / 100m))
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
@@ -26,7 +26,7 @@ public sealed class TheVoidStaresBack() : TheVoidCard(4, CardType.Attack, CardRa
         var target = cardPlay.Target;
         if (target == null) return;
 
-        await DamageCmd.Attack(DynamicVars.CalculatedDamage.PreviewValue).WithHitCount(DynamicVars["Multiplier"].IntValue)
+        await DamageCmd.Attack(DynamicVars.CalculatedDamage.PreviewValue).WithHitCount(DynamicVars[Constants.DynamicVars.Multiplier].IntValue)
             .FromCard(this)
             .Targeting(target)
             .WithHitFx(DefaultAttackVfx)
@@ -38,6 +38,6 @@ public sealed class TheVoidStaresBack() : TheVoidCard(4, CardType.Attack, CardRa
 
     protected override void OnUpgrade()
     {
-        DynamicVars["Multiplier"].UpgradeValueBy(1m);
+        DynamicVars[Constants.DynamicVars.Multiplier].UpgradeValueBy(1m);
     }
 }

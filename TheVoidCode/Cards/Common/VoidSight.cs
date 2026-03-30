@@ -17,7 +17,7 @@ public sealed class VoidSight() : TheVoidCard(2, CardType.Power, CardRarity.Comm
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await CreatureCmd.TriggerAnim(Owner.Creature, "Cast", Owner.Character.CastAnimDelay);
+        await CreatureCmd.TriggerAnim(Owner.Creature, Constants.TriggerAnim.Cast, Owner.Character.CastAnimDelay);
         await PowerCmd.Apply<VoidSightPower>(Owner.Creature, DynamicVars.Cards.BaseValue, Owner.Creature, this);
     }
 

@@ -23,7 +23,7 @@ public sealed class NullRitual() : TheVoidCard(2, CardType.Skill, CardRarity.Unc
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await CreatureCmd.TriggerAnim(Owner.Creature, "Cast", Owner.Character.CastAnimDelay);
+        await CreatureCmd.TriggerAnim(Owner.Creature, Constants.TriggerAnim.Cast, Owner.Character.CastAnimDelay);
 
         var combatState = CombatState;
         if (combatState == null) return;

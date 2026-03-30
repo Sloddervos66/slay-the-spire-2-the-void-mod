@@ -24,7 +24,7 @@ public sealed class Devour() : TheVoidCard(2, CardType.Attack, CardRarity.Uncomm
     protected override void AddExtraArgsToDescription(LocString description)
     {
         var instantDeathVar = (InstantDeathVar)DynamicVars[InstantDeathVar.Name];
-        description.Add("TargetSelected", instantDeathVar.HasTarget);
+        description.Add(Constants.DescriptionArg.TargetSelected, instantDeathVar.HasTarget);
     }
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)

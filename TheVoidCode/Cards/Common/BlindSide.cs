@@ -11,11 +11,10 @@ namespace TheVoid.TheVoidCode.Cards.Common;
 [Pool(typeof(TheVoidCardPool))]
 public sealed class BlindSide() : TheVoidCard(2, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
-    private const string AdditionalDamage = "AdditionalDamage";
     protected override IEnumerable<DynamicVar> CanonicalVars => 
     [
         new DamageVar(6m, ValueProp.Move),
-        new(AdditionalDamage, 6m)
+        new(Constants.DynamicVars.AdditionalDamage, 6m)
     ];
 
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
@@ -34,7 +33,7 @@ public sealed class BlindSide() : TheVoidCard(2, CardType.Attack, CardRarity.Com
 
         if (monster.IntendsToAttack)
         {
-            await DamageCmd.Attack(DynamicVars[AdditionalDamage].BaseValue).FromCard(this).Targeting(target)
+            await DamageCmd.Attack(DynamicVars[Constants.DynamicVars.AdditionalDamage].BaseValue).FromCard(this).Targeting(target)
                 .WithHitFx(DefaultAttackVfx)
                 .Execute(choiceContext);
         }
@@ -43,6 +42,6 @@ public sealed class BlindSide() : TheVoidCard(2, CardType.Attack, CardRarity.Com
     protected override void OnUpgrade()
     {
         DynamicVars.Damage.UpgradeValueBy(2m);
-        DynamicVars[AdditionalDamage].UpgradeValueBy(2m);
+        DynamicVars[Constants.DynamicVars.AdditionalDamage].UpgradeValueBy(2m);
     }
 }

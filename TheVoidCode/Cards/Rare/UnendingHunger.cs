@@ -18,7 +18,7 @@ public sealed class UnendingHunger() : TheVoidCard(1, CardType.Skill, CardRarity
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await CreatureCmd.TriggerAnim(Owner.Creature, "Cast", Owner.Character.CastAnimDelay);
+        await CreatureCmd.TriggerAnim(Owner.Creature, Constants.TriggerAnim.Cast, Owner.Character.CastAnimDelay);
         await PowerCmd.Apply<UnendingHungerPower>(Owner.Creature, DynamicVars[UnendingHungerPower.Name].BaseValue, Owner.Creature, this);
     }
 

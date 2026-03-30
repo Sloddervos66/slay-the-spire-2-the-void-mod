@@ -20,7 +20,7 @@ public sealed class BloodRite() : TheVoidCard(1, CardType.Power, CardRarity.Rare
 
     protected override void AddExtraArgsToDescription(LocString description)
     {
-        description.Add("IsUpgraded", 
+        description.Add(Constants.DescriptionArg.IsUpgraded, 
             IsUpgraded
                 ? $" and draw [blue]{DynamicVars.Cards.BaseValue}[/blue] card"
                 : "");

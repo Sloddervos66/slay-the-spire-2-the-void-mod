@@ -26,7 +26,7 @@ public sealed class ConsumingBlow() : TheVoidCard(2, CardType.Attack, CardRarity
 
     protected override void AddExtraArgsToDescription(LocString description)
     {
-        description.Add("IsUpgraded", IsUpgraded ? $" Apply [blue]{DynamicVars[LastGaspPower.Name].BaseValue}[/blue] [gold]Last Gasp[/gold]." : "");
+        description.Add(Constants.DescriptionArg.IsUpgraded, IsUpgraded ? $" Apply [blue]{DynamicVars[LastGaspPower.Name].BaseValue}[/blue] [gold]Last Gasp[/gold]." : "");
     }
     
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)

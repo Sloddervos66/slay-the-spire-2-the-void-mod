@@ -14,13 +14,11 @@ namespace TheVoid.TheVoidCode.Cards.Uncommon;
 [Pool(typeof(TheVoidCardPool))]
 public sealed class NullStep() : TheVoidCard(2, CardType.Skill, CardRarity.Uncommon, TargetType.AnyEnemy)
 {
-    private const string AdditionalBlock = "AdditionalBlock";
-    
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<BlindPower>()];
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new BlockVar(8m, ValueProp.Move),
-        new(AdditionalBlock, 4m),
+        new(Constants.DynamicVars.AdditionalBlock, 4m),
         new PowerVar<BlindPower>(5m),
         new CalculationBaseVar(8m),
         new CalculationExtraVar(1m),
@@ -32,13 +30,13 @@ public sealed class NullStep() : TheVoidCard(2, CardType.Skill, CardRarity.Uncom
             var blindAmount = target.GetPowerAmount<BlindPower>();
             var multiplier = Math.Floor(blindAmount / card.DynamicVars[BlindPower.Name].BaseValue);
             
-            return card.DynamicVars[AdditionalBlock].BaseValue * multiplier;
+            return card.DynamicVars[Constants.DynamicVars.AdditionalBlock].BaseValue * multiplier;
         })
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await CreatureCmd.TriggerAnim(Owner.Creature, "Cast", Owner.Character.CastAnimDelay);
+        await CreatureCmd.TriggerAnim(Owner.Creature, Constants.TriggerAnim.Cast, Owner.Character.CastAnimDelay);
         var target = cardPlay.Target;
         if (target == null) return;
         

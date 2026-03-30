@@ -13,14 +13,13 @@ namespace TheVoid.TheVoidCode.Cards.Uncommon;
 [Pool(typeof(TheVoidCardPool))]
 public sealed class BlindFury() : TheVoidCard(2, CardType.Attack, CardRarity.Uncommon, TargetType.AnyEnemy)
 {
-    private const string AdditionalDamageName = "AdditionalDamage";
     private const decimal AdditionalDamagePerStack = 3m;
     private const decimal StacksPerBonus = 2m;
     
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new BlindFuryDamageVar(5m, AdditionalDamagePerStack, StacksPerBonus),
-        new(AdditionalDamageName, AdditionalDamagePerStack),
+        new(Constants.DynamicVars.AdditionalDamage, AdditionalDamagePerStack),
         new PowerVar<BlindPower>(StacksPerBonus)
     ];
 
@@ -30,7 +29,7 @@ public sealed class BlindFury() : TheVoidCard(2, CardType.Attack, CardRarity.Unc
         if (target == null) return;
 
         var additionalDamage = Owner.Creature.HasBlind()
-            ? DynamicVars[AdditionalDamageName].BaseValue * (Owner.Creature.GetPowerAmount<BlindPower>() / DynamicVars[BlindPower.Name].BaseValue)
+            ? DynamicVars[Constants.DynamicVars.AdditionalDamage].BaseValue * (Owner.Creature.GetPowerAmount<BlindPower>() / DynamicVars[BlindPower.Name].BaseValue)
             : 0m;
         var totalDamage = DynamicVars[BlindFuryDamageVar.Name].BaseValue + additionalDamage;
         await DamageCmd.Attack(totalDamage).FromCard(this).Targeting(target)
