@@ -153,7 +153,7 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 |---------------------|---------------------------------------------------------------------------|----------|-----------|
 | Bottle of Ink       | Apply 10 Blind to an enemy.                                               | Common   | Y         |
 | Essence of Collapse | Trigger all on death effects of ALL enemies.                              | Uncommon | Y         |
-| Kraken in a Bottle  | Apply 20 Blind to ALL enemies. If used on a Merchant, everything is free. | Rare     | N         |
+| Kraken in a Bottle  | Apply 20 Blind to ALL enemies. If used on a Merchant, everything is free. | Rare     | Y         |
 
 ---
 
