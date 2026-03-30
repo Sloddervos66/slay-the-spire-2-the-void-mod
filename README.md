@@ -149,11 +149,11 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 ---
 
 ### Potions (3)
-| Potion              | Description                                                                                | Rarity   | Completed |
-|---------------------|--------------------------------------------------------------------------------------------|----------|-----------|
-| Kraken in a Bottle  | Apply 20 blind to ALL enemies.                                                             | Rare     | N         |
-| Essence of Collapse | Apply 6 blind to ALL enemies. Trigger all on death effects on enemies with 50% or less HP. | Uncommon | N         |
-| Bottle of Ink       | Apply 10 blind to an enemy.                                                                | Common   | N         |
+| Potion              | Description                                                               | Rarity   | Completed |
+|---------------------|---------------------------------------------------------------------------|----------|-----------|
+| Bottle of Ink       | Apply 10 Blind to an enemy.                                               | Common   | Y         |
+| Essence of Collapse | Trigger all on death effects of ALL enemies.                              | Uncommon | Y         |
+| Kraken in a Bottle  | Apply 20 Blind to ALL enemies. If used on a Merchant, everything is free. | Rare     | N         |
 
 ---
 
