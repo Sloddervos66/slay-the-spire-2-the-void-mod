@@ -13,5 +13,10 @@ public sealed class LastGaspPower : OnDeathTriggerPower
         if (player == null) return;
         
         await CardPileCmd.Draw(choiceContext, Amount, player);
+
+        if (Owner.IsAlive)
+        {
+            await PowerCmd.Remove(this);
+        }
     }
 }

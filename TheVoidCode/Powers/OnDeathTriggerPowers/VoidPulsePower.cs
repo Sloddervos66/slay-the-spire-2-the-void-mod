@@ -13,5 +13,10 @@ public sealed class VoidPulsePower : OnDeathTriggerPower
         if (player == null) return;
         
         await PlayerCmd.GainEnergy(Amount, player);
+
+        if (Owner.IsAlive)
+        {
+            await PowerCmd.Remove(this);
+        }
     }
 }

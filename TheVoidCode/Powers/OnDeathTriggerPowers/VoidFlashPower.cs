@@ -20,5 +20,10 @@ public sealed class VoidFlashPower : OnDeathTriggerPower
         {
             await PowerCmd.Apply<BlindPower>(e, Amount, player, null);
         }
+
+        if (Owner.IsAlive)
+        {
+            await PowerCmd.Remove(this);
+        }
     }
 }

@@ -13,5 +13,10 @@ public sealed class VoidMendPower : OnDeathTriggerPower
         if (player == null) return;
 
         await CreatureCmd.Heal(player.Creature, Amount);
+
+        if (Owner.IsAlive)
+        {
+            await PowerCmd.Remove(this);
+        }
     }
 }
