@@ -8,5 +8,26 @@
     
     "THEVOID-SHATTERED_LENS.description": "[gold]Blind[/gold] now ticks down for EVERYONE by [blue]{BlindPower}[/blue] after each turn.",
     "THEVOID-SHATTERED_LENS.flavor": "My eyesight, it's restoring?!",
-    "THEVOID-SHATTERED_LENS.title": "Shattered Lens"
+    "THEVOID-SHATTERED_LENS.title": "Shattered Lens",
+    
+    "THEVOID-UMBRAL_CARAPACE.description": "",
+    "THEVOID-UMBRAL_CARAPACE.flavor": "The dark hardens around you.",
+    "THEVOID-UMBRAL_CARAPACE.title": "Umbral Carapace",
+    "THEVOID-BLOOD_CONTRACT.description": "",
+    "THEVOID-BLOOD_CONTRACT.flavor": "Every sacrifice is honoured.",
+    "THEVOID-BLOOD_CONTRACT.title": "Blood Contract",
+
+    "THEVOID-GRAVE_CONVERGENCE.description": "",
+    "THEVOID-GRAVE_CONVERGENCE.flavor": "All endings meet here.",
+    "THEVOID-GRAVE_CONVERGENCE.title": "Grave Convergence",
+    "THEVOID-ABYSSAL_THRESHOLD.description": "",
+    "THEVOID-ABYSSAL_THRESHOLD.flavor": "There is a point where sight is no longer needed.",
+    "THEVOID-ABYSSAL_THRESHOLD.title": "Abyssal Threshold",
+    "THEVOID-THE_HUNGERING_VOID.description": "",
+    "THEVOID-THE_HUNGERING_VOID.flavor": "It always seems to be hungry for more...",
+    "THEVOID-THE_HUNGERING_VOID.title": "The Hungering Void",
+    
+    "THEVOID-FORBIDDEN_PRISM.description": "",
+    "THEVOID-FORBIDDEN_PRISM.flavor": "It shows you everything. That’s the problem.",
+    "THEVOID-FORBIDDEN_PRISM.title": "Forbidden Prism"
 }
