@@ -141,13 +141,13 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 
 ---
 
-### Relics (3)
+### Relics (9)
 | Relic                  | Description                                                                                    | Rarity   | Completed |
 |------------------------|------------------------------------------------------------------------------------------------|----------|-----------|
 | **Pitch Black**        | At the start of combat, apply 5 Blind to all enemies.                                          | Starter  | Y         |
 | **Total Darkness**     | At the start of combat, apply 10 Blind to all enemies.                                         | Starter  | Y         |
 | **Shattered Lens**     | Blind now ticks down by 2 at the end of the turn.                                              | Common   | Y         |
-| **Umbral Carapace**    | Whenever you apply Blind to yourself, gain Block equal to the amount applied.                  | Uncommon | N         |
+| **Umbral Carapace**    | Whenever you apply Blind, gain 2 Block.                                                        | Uncommon | Y         |
 | **Blood Contract**     | The first time each turn you lose HP from a card, draw 2 cards.                                | Uncommon | N         |
 | **Grave Convergence**  | The first time each turn an enemy dies, trigger its on death effects twice.                    | Rare     | N         |
 | **Abyssal Threshold**  | Whenever you apply 50 Blind to an enemy, it gains 3 Consumption and Void Claimed.              | Rare     | N         |

@@ -10,7 +10,7 @@
     "THEVOID-SHATTERED_LENS.flavor": "My eyesight, it's restoring?!",
     "THEVOID-SHATTERED_LENS.title": "Shattered Lens",
     
-    "THEVOID-UMBRAL_CARAPACE.description": "",
+    "THEVOID-UMBRAL_CARAPACE.description": "Whenever you apply Blind to yourself, gain {Block:diff()} [gold]Block[/gold].",
     "THEVOID-UMBRAL_CARAPACE.flavor": "The dark hardens around you.",
     "THEVOID-UMBRAL_CARAPACE.title": "Umbral Carapace",
     "THEVOID-BLOOD_CONTRACT.description": "",
