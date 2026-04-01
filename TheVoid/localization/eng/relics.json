@@ -13,7 +13,7 @@
     "THEVOID-UMBRAL_CARAPACE.description": "Whenever you apply Blind to yourself, gain {Block:diff()} [gold]Block[/gold].",
     "THEVOID-UMBRAL_CARAPACE.flavor": "The dark hardens around you.",
     "THEVOID-UMBRAL_CARAPACE.title": "Umbral Carapace",
-    "THEVOID-BLOOD_CONTRACT.description": "",
+    "THEVOID-BLOOD_CONTRACT.description": "The first time each turn you lose HP from a card, draw {Cards:diff()} {Cards:plural:card|cards}.",
     "THEVOID-BLOOD_CONTRACT.flavor": "Every sacrifice is honoured.",
     "THEVOID-BLOOD_CONTRACT.title": "Blood Contract",
 
