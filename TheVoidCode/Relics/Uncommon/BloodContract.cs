@@ -13,7 +13,7 @@ public sealed class BloodContract : TheVoidRelic
 {
     public override RelicRarity Rarity => RelicRarity.Uncommon;
     protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(2)];
-    private bool _hasDrawn = false;
+    private bool _hasDrawn;
 
     public override async Task AfterDamageReceived(PlayerChoiceContext choiceContext, Creature target, DamageResult result, ValueProp props, Creature? dealer, CardModel? cardSource)
     {
