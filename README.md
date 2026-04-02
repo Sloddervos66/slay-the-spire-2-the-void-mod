@@ -150,8 +150,8 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/Sloddervos6
 | **Umbral Carapace**    | Whenever you apply Blind, gain 2 Block.                                                        | Uncommon | Y         |
 | **Blood Contract**     | The first time each turn you lose HP from a card, draw 2 cards.                                | Uncommon | Y         |
 | **Grave Convergence**  | The first time each turn an enemy dies, trigger its on death effects twice.                    | Rare     | Y         |
-| **Abyssal Threshold**  | Whenever you apply 50 Blind to an enemy, it gains 3 Consumption and Void Claimed.              | Rare     | N         |
-| **The Hungering Void** | Whenever you apply Blind to yourself, gain Strength for this turn equal to the amount applied. | Rare     | N         |
+| **Abyssal Threshold**  | Whenever you apply 50 Blind to an enemy, it gains 3 Consumption and Void Claimed.              | Rare     | Y         |
+| **The Hungering Void** | Whenever you apply Blind to yourself, gain Strength for this turn equal to the amount applied. | Rare     | Y         |
 | **Forbidden Prism**    | Whenever you would apply Blind to yourself, apply it to ALL enemies instead. Gain 2 weak.      | Shop     | N         |
 
 ---

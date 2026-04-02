@@ -23,7 +23,7 @@
     "THEVOID-ABYSSAL_THRESHOLD.description": "Whenever you apply [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] to an enemy. It gains [blue]{ConsumptionPower:diff()}[/blue] [gold]Consumption[/gold] and [gold]Void Claimed[/gold].",
     "THEVOID-ABYSSAL_THRESHOLD.flavor": "There is a point where sight is no longer needed.",
     "THEVOID-ABYSSAL_THRESHOLD.title": "Abyssal Threshold",
-    "THEVOID-THE_HUNGERING_VOID.description": "",
+    "THEVOID-THE_HUNGERING_VOID.description": "Whenever you apply [gold]Blind[/gold] to yourself. Gain [gold]Strength[/gold] this turn equal to the amount applied.",
     "THEVOID-THE_HUNGERING_VOID.flavor": "It always seems to be hungry for more...",
     "THEVOID-THE_HUNGERING_VOID.title": "The Hungering Void",
     
