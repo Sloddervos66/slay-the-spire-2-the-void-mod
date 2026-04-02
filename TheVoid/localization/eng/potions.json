@@ -3,6 +3,6 @@
     "THEVOID-BOTTLE_OF_INK.title": "Bottle of Ink",
     "THEVOID-ESSENCE_OF_COLLAPSE.description": "Trigger all [gold]on death effects[/gold] of ALL enemies.",
     "THEVOID-ESSENCE_OF_COLLAPSE.title": "Essence of Collapse",
-    "THEVOID-KRAKEN_IN_A_BOTTLE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold] to ALL enemies.\nCan be thrown at the [gold]Merchant[/gold] to get everything for free instead.",
+    "THEVOID-KRAKEN_IN_A_BOTTLE.description": "Apply {BlindPower:diff()} [gold]Blind[/gold] to ALL enemies.\nCan be thrown at the [gold]Merchant[/gold] to make all items free instead.",
     "THEVOID-KRAKEN_IN_A_BOTTLE.title": "Kraken in a Bottle"
 }
