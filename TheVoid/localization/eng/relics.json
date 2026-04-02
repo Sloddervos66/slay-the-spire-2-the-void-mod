@@ -20,7 +20,7 @@
     "THEVOID-GRAVE_CONVERGENCE.description": "The first time each turn an enemy dies, trigger its [gold]on death effects[/gold] twice.",
     "THEVOID-GRAVE_CONVERGENCE.flavor": "All endings meet here.",
     "THEVOID-GRAVE_CONVERGENCE.title": "Grave Convergence",
-    "THEVOID-ABYSSAL_THRESHOLD.description": "",
+    "THEVOID-ABYSSAL_THRESHOLD.description": "Whenever you apply [blue]{BlindPower:diff()}[/blue] [gold]Blind[/gold] to an enemy. It gains [blue]{ConsumptionPower:diff()}[/blue] [gold]Consumption[/gold] and [gold]Void Claimed[/gold].",
     "THEVOID-ABYSSAL_THRESHOLD.flavor": "There is a point where sight is no longer needed.",
     "THEVOID-ABYSSAL_THRESHOLD.title": "Abyssal Threshold",
     "THEVOID-THE_HUNGERING_VOID.description": "",
