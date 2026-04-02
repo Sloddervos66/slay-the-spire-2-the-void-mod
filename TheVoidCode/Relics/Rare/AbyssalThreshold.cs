@@ -32,7 +32,6 @@ public sealed class AbyssalThreshold : TheVoidRelic
         var target = power.Owner;
         if (!target.IsMonster || 
             !target.HasBlind() || 
-            target.HasVoidClaimed() ||
             target.GetPowerAmount<BlindPower>() < DynamicVars[BlindPower.Name].BaseValue
         ) return;
         

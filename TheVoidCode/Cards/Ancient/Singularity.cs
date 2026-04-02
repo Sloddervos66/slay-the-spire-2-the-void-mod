@@ -39,11 +39,8 @@ public sealed class Singularity() : TheVoidCard(2, CardType.Attack, CardRarity.A
             .WithHitFx(DefaultAttackVfx)
             .Execute(choiceContext);
 
-        if (!Owner.Creature.HasVoidClaimed())
-        {
-            await PowerCmd.Apply<ConsumptionPower>(Owner.Creature, DynamicVars[ConsumptionPower.Name].BaseValue, Owner.Creature, this);
-            await PowerCmd.Apply<VoidClaimedPower>(Owner.Creature, DynamicVars[VoidClaimedPower.Name].BaseValue, Owner.Creature, this);
-        }
+        await PowerCmd.Apply<ConsumptionPower>(Owner.Creature, DynamicVars[ConsumptionPower.Name].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<VoidClaimedPower>(Owner.Creature, DynamicVars[VoidClaimedPower.Name].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

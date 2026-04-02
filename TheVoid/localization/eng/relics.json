@@ -27,7 +27,7 @@
     "THEVOID-THE_HUNGERING_VOID.flavor": "It always seems to be hungry for more...",
     "THEVOID-THE_HUNGERING_VOID.title": "The Hungering Void",
     
-    "THEVOID-FORBIDDEN_PRISM.description": "",
+    "THEVOID-FORBIDDEN_PRISM.description": "Whenever you would apply [gold]Blind[/gold] to yourself. Apply it to ALL enemies instead. Gain [blue]{WeakPower:diff()}[/blue] [gold]Weak[/gold].",
     "THEVOID-FORBIDDEN_PRISM.flavor": "It shows you everything. That’s the problem.",
     "THEVOID-FORBIDDEN_PRISM.title": "Forbidden Prism"
 }

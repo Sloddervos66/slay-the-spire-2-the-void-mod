@@ -78,5 +78,8 @@
     "THEVOID-ABYSSAL_GAZE.title": "Abyssal Gaze",
 
     "THEVOID-SINGULARITY.description": "Deal {Damage:diff()} to ALL enemies. Gain {ConsumptionPower:diff()} [gold]Consumption[/gold]. Gain [gold]Void Claimed[/gold].",
-    "THEVOID-SINGULARITY.title": "Singularity"
+    "THEVOID-SINGULARITY.title": "Singularity",
+
+    "THEVOID-CONSUMPTION_TEST.description": "Test",
+    "THEVOID-CONSUMPTION_TEST.title": "ConsumptionTest"
 }

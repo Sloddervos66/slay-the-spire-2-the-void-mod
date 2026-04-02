@@ -20,9 +20,4 @@ public static class CreatureExtensions
     {
         return creature.Powers.OfType<OnDeathTriggerPower>();
     }
-
-    public static bool HasVoidClaimed(this Creature creature)
-    {
-        return creature.HasPower<VoidClaimedPower>();
-    }
 }
