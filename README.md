@@ -4,7 +4,7 @@
 
 A new playable character mod for **Slay the Spire 2** — my first globally available mod!
 
-![Supported Version](https://img.shields.io/badge/StS2_Version-latest-blueviolet?style=flat-square)
+![Supported Version](https://img.shields.io/badge/StS2_Version-98.2-blueviolet?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
 ![Dependency](https://img.shields.io/badge/Requires-BaseLib-orange?style=flat-square)
 
